@@ -269,15 +269,15 @@ msgstr ""
 #: src\how-to-customize-interpolation.md:17
 msgid ""
 "```admonish note\n"
-"If you need to display \"{{\" \"}}\" characters in template you can attach a "
-"property to your component without customize interpolation\n"
+"Si vous avez besoin d'afficher des caractères \"{{\" \"}}\" dans le modèle, vous pouvez inclure un "
+"propriété à votre composant sans interpolation personnalisée\n"
 "```"
 msgstr ""
 
 #: src\how-to-customize-interpolation.md:21
 msgid ""
 "```admonish tldr\n"
-"😆 Have fun with emoji customization [link](https://unicode.org/emoji/charts/"
+"😆 Amusez-vous avec la personnalisation des emoji [lien](https://unicode.org/emoji/charts/"
 "full-emoji-list.html)\n"
 "```"
 msgstr ""
@@ -304,7 +304,7 @@ msgstr ""
 
 #: src\renderer/how-to-create_comment.md:1
 msgid "# How to create comment ?"
-msgstr ""
+msgstr "# Comment créer un commentaire ?"
 
 #: src\renderer/how-to-create_comment.md:4
 msgid ""
