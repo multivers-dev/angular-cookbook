@@ -1,0 +1,34 @@
+[book]
+authors = ["Pierre Nédélec"]
+description = "Angular-CookBook"
+language = "en"
+multilingual = false
+src = "src"
+title = "Angular-CookBook"
+
+[rust]
+edition = "2021"
+
+[build]
+extra-watch-dirs = ["po"]
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+additional-css = ['.\theme\mdbook-admonish.css', '.\theme\catppuccin.css', '.\theme\catppuccin-highlight.css', '.\.\mdbook-admonish.css']
+git-repository-url = "https://github.com/nedinfra/angular-cookbook"
+git-repository-icon = "fa-github"
+edit-url-template = "https://github.com/nedinfra/angular-cookbook/blob/master/{path}"
+
+[preprocessor]
+
+[preprocessor.admonish]
+command = "mdbook-admonish"
+assets_version = "2.0.0" # do not edit: managed by `mdbook-admonish install`
+
+[preprocessor.catppuccin]
+assets_version = "0.1.1" # DO NOT EDIT: Managed by `mdbook-catppuccin install`
+
+[preprocessor.gettext]
+after = ["links"]
+

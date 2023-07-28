@@ -1,0 +1,393 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Angular-CookBook\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2023-07-28 04:10+0200\n"
+"Last-Translator: U-coder\\pierre <contact@multivers.dev>\n"
+"Language-Team: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: src\SUMMARY.md:3
+msgid "Introduction"
+msgstr ""
+
+#: src\SUMMARY.md:4
+msgid "Chapter 1"
+msgstr ""
+
+#: src\SUMMARY.md:5
+msgid "Lazy Loading"
+msgstr ""
+
+#: src\SUMMARY.md:6
+msgid "How to Lazy load Module ?"
+msgstr ""
+
+#: src\SUMMARY.md:7
+msgid "How to Lazy load Standalone Components"
+msgstr ""
+
+#: src\SUMMARY.md:8
+msgid "How to Lazy load Service"
+msgstr ""
+
+#: src\SUMMARY.md:9
+msgid "Preloading Strategy "
+msgstr ""
+
+#: src\SUMMARY.md:10
+msgid "Dynamic Load"
+msgstr ""
+
+#: src\SUMMARY.md:11
+msgid "Content Projection"
+msgstr ""
+
+#: src\SUMMARY.md:12
+msgid "How to use content projection ?"
+msgstr ""
+
+#: src\SUMMARY.md:13
+msgid "Interpolation"
+msgstr ""
+
+#: src\SUMMARY.md:14
+msgid "How to customize Component Interpolation"
+msgstr "Comment personnaliser l'interpolation des composants"
+
+#: src\SUMMARY.md:15
+msgid "Renderer"
+msgstr ""
+
+#: src\SUMMARY.md:17
+msgid "How to create comment ?"
+msgstr ""
+
+#: src\SUMMARY.md:18
+msgid "RendererFactory2"
+msgstr ""
+
+#: src\SUMMARY.md:19
+msgid "createRenderer"
+msgstr ""
+
+#: src\SUMMARY.md:20
+msgid "begin"
+msgstr ""
+
+#: src\SUMMARY.md:20
+msgid "end"
+msgstr ""
+
+#: src\SUMMARY.md:22
+msgid "whenRenderingDone"
+msgstr ""
+
+#: src\SUMMARY.md:23
+msgid "Contributors"
+msgstr ""
+
+#: src\introduction/introduction.md:1
+msgid "# Angular CookBook \r"
+msgstr ""
+
+#: src\introduction/introduction.md:2
+msgid "Angular CookBook "
+msgstr ""
+
+#: src\introduction/introduction.md:4
+msgid "## Angular Cookbook - How to do things with Angular \r"
+msgstr ""
+
+#: src\introduction/introduction.md:6
+msgid "This is a book about doing things with Angular."
+msgstr ""
+
+#: src\introduction/introduction.md:8
+msgid "It takes the form of \"How to\" articles."
+msgstr ""
+
+#: src\introduction/introduction.md:10
+msgid "Everyone can participate !"
+msgstr ""
+
+#: src\introduction/introduction.md:12
+msgid "Source code is store on [Github]()"
+msgstr ""
+
+#: src\introduction/introduction.md:14
+msgid ""
+"Build with ❤ by [Pierre Nédélec](https://www.linkedin.com/in/pierrenedelec-"
+"expert) "
+msgstr ""
+
+#: src\chapter_1.md:1
+msgid "# Chapter 1"
+msgstr ""
+
+#: src\chapter_1.md:6
+msgid ""
+"```typescript\n"
+"interface Row<T extends object> {\n"
+"  $implicit: T\n"
+"}\n"
+"\n"
+"@Directive({\n"
+"  selector: 'ng-template[appTableRow]'\n"
+"})\n"
+"export class TableRowDirective<T extends object> {\n"
+"  @Input() appTableRow!: T[];\n"
+"\n"
+"  constructor() { }\n"
+"\n"
+"  static ngTemplateContextGuard<TContext extends object>(\n"
+"    directive: TableRowDirective<TContext>,\n"
+"    context: unknown\n"
+"  ): context is Row<TContext> {\n"
+"    return true;\n"
+"  }\n"
+"\n"
+"}\n"
+"\n"
+"```"
+msgstr ""
+
+#: src\lazy_loading.md:1
+msgid "# Lazy Loading"
+msgstr ""
+
+#: src\lazy_loading.md:3
+msgid "Lazy Loading "
+msgstr ""
+
+#: src\lazy_loading.md:6
+msgid "[Lazy Loading Module](./lazy_loading_module.md)"
+msgstr ""
+
+#: src\lazy_loading.md:8
+msgid ""
+"[Lazy Loading Standalone Components ( NG 14+) ](./"
+"lazy_loading_standalone_component.md)"
+msgstr ""
+
+#: src\lazy_loading.md:10
+msgid "Read about [mdBook](mdBook.md)"
+msgstr ""
+
+#: src\lazy_loading_module.md:1
+msgid "# How to Lazy load Module ?"
+msgstr ""
+
+#: src\lazy_loading_module.md:4
+msgid ""
+"```typescript\n"
+"RouterModule.forRoot([\n"
+"    {\n"
+"        path: 'lazy-loading-path',\n"
+"        loadChildren: () => import('./lazy-loading.module.ts')\n"
+"        .then((m) => m.LazyLoadingModule)\n"
+"    }\n"
+"])\n"
+"\n"
+"```"
+msgstr ""
+
+#: src\lazy_loading_module.md:14
+msgid "# Why/When to Lazy load Module ?"
+msgstr ""
+
+#: src\lazy_loading_module.md:16
+msgid ""
+"You Application might contains differents features which are related to "
+"specific part of your application. "
+msgstr ""
+
+#: src\lazy_loading_module.md:19
+msgid ""
+"Lazy loading module help you to add features to your application without "
+"having to increase runtime performance."
+msgstr ""
+
+#: src\lazy_loading_module.md:21
+msgid "Related Topics :"
+msgstr ""
+
+#: src\lazy_loading_module.md:24
+msgid "[Preloading Strategy ](./preloading_strategy.md)"
+msgstr ""
+
+#: src\lazy_loading_standalone_component.md:1
+msgid "# How to Lazy load Standalone Components"
+msgstr ""
+
+#: src\lazy_loading_service.md:1
+msgid "# How to Lazy load Service"
+msgstr ""
+
+#: src\preloading_strategy.md:1
+msgid "# Preloading Strategy "
+msgstr ""
+
+#: src\dynamic_load.md:1
+msgid "# Dynamic Load"
+msgstr ""
+
+#: src\content-projection.md:1
+msgid "# Content Projection"
+msgstr ""
+
+#: src\interpolation.md:1
+msgid "# Interpolation"
+msgstr ""
+
+#: src\how-to-customize-interpolation.md:1
+msgid "# How to customize Component Interpolation ?"
+msgstr "# Comment personnaliser l'interpolation des composants"
+
+#: src\how-to-customize-interpolation.md:3
+msgid ""
+"```typescript\n"
+"import { Component } from '@angular/core';\n"
+"\n"
+"@Component({\n"
+"  selector: 'my-app',\n"
+"  template: `<p>🧙🧙name🧙🧙</p>`,\n"
+"  styleUrls: ['./app.component.css'],\n"
+"  interpolation: ['🧙🧙', '🧙🧙'],\n"
+"})\n"
+"export class AppComponent {\n"
+"  name = 'Angular';\n"
+"}\n"
+"\n"
+"```"
+msgstr ""
+
+#: src\how-to-customize-interpolation.md:17
+msgid ""
+"```admonish note\n"
+"If you need to display \"{{\" \"}}\" characters in template you can attach a "
+"property to your component without customize interpolation\n"
+"```"
+msgstr ""
+
+#: src\how-to-customize-interpolation.md:21
+msgid ""
+"```admonish tldr\n"
+"😆 Have fun with emoji customization [link](https://unicode.org/emoji/charts/"
+"full-emoji-list.html)\n"
+"```"
+msgstr ""
+
+#: src\how-to-customize-interpolation.md:25
+msgid ""
+"<!-- [<a href=\"https://stackblitz.com/edit/angular-joke-"
+"interpolation-3sz7j9\" target=\"_blank\"><img width=\"60px\" alt=\"stackblitz"
+"\" src=\"images/stackblitz.webp\"></a>]() -->"
+msgstr ""
+
+#: src\how-to-customize-interpolation.md:28
+msgid ""
+"[<iframe width=\"100%\" height=\"600px\" src=\"https://stackblitz.com/edit/"
+"angular-joke-interpolation-3sz7j9?embed=1&file=src/app/app.component.ts\"></"
+"iframe>]()"
+msgstr ""
+
+#: src\renderer/index.md:1
+msgid ""
+"# Renderer2 ![](https://img.shields.io/static/v1?"
+"label=&message=CLASS&color=blue)"
+msgstr ""
+
+#: src\renderer/how-to-create_comment.md:1
+msgid "# How to create comment ?"
+msgstr ""
+
+#: src\renderer/how-to-create_comment.md:4
+msgid ""
+"```typescript\n"
+"import { Component, ElementRef, Renderer2, VERSION } from '@angular/core';\n"
+"\n"
+"@Component({\n"
+"  selector: 'my-app',\n"
+"  templateUrl: './app.component.html',\n"
+"  styleUrls: ['./app.component.css'],\n"
+"})\n"
+"export class AppComponent {\n"
+"  name = 'Angular ' + VERSION.major;\n"
+"  constructor(private renderer: Renderer2, private elRef: ElementRef) {\n"
+"    const comment = this.renderer.createComment('My Comment');\n"
+"    this.renderer.appendChild(elRef.nativeElement, comment);\n"
+"  }\n"
+"}\n"
+"\n"
+"\n"
+"```"
+msgstr ""
+
+#: src\renderer/how-to-create_comment.md:23
+msgid ""
+"```admonish tldr\n"
+"It's use by Angular internal rendering proccess that's why comment appear "
+"when we use *ngIf or *ngFor \n"
+"```"
+msgstr ""
+
+#: src\renderer/how-to-create_comment.md:27
+msgid ""
+"[<iframe width=\"100%\" height=\"600px\" src=\"https://stackblitz.com/edit/"
+"angular-cookbook-comment?file=src/app/app.component.ts\"></iframe>]()"
+msgstr ""
+
+#: src\renderer/rendererFactory2.md:1
+msgid ""
+"# RendererFactory2 ![](https://img.shields.io/static/v1?"
+"label=&message=CLASS&color=blue)"
+msgstr ""
+
+#: src\renderer/rendererFactory2.md:3
+msgid ""
+"Creates and initializes a custom renderer that implements the Renderer2 base "
+"class."
+msgstr ""
+
+#: src\renderer/rendererFactory2.md:5
+msgid ""
+"- [createRenderer](./createRenderer.md)\n"
+"- [begin](./begin.md)\n"
+"- [end](./end.md)\n"
+"- [whenRenderingDone](./whenRenderingDone.md)"
+msgstr ""
+
+#: src\renderer/createRenderer.md:1
+msgid "# createRenderer"
+msgstr ""
+
+#: src\renderer/begin.md:1
+msgid "# begin"
+msgstr ""
+
+#: src\renderer/end.md:1
+msgid "# end"
+msgstr ""
+
+#: src\renderer/whenRenderingDone.md:1
+msgid "# whenRenderingDone"
+msgstr ""
+
+#: src\contributors.md:1
+msgid "# Contributors"
+msgstr ""
+
+#: src\contributors.md:3
+msgid "[Pierre Nédélec](https://www.linkedin.com/in/pierrenedelec-expert) "
+msgstr ""
+
+#: src\contributors.md:5
+msgid ""
+"<!-- ![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?"
+"style=for-the-badge&logo=linkedin&logoColor=white) -->"
+msgstr ""
