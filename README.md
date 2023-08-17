@@ -27,24 +27,43 @@ https://tommilligan.github.io/mdbook-admonish/reference.html
 
 ```sh
 cargo install mdbook-admonish
+
 ```
-
-* Run `build`
-
-```sh
-mdbook build
-```
-
-### Warning: Recompile when `mdbook` is updated
-
-`mdbook-admonish` depend on particular versions of `mdbook`.
-
-When `mdbook` is updated, it is best to reinstall both plugins to make sure that there are no
-version conflicts.
-
 
 # I18N 
 mdbook-i18n-helpers (https://github.com/google/mdbook-i18n-helpers)
 
+```sh
+cargo install mdbook-i18n-helpers
 
- 
+```
+
+
+* Run `build` in fr 
+
+
+```sh
+MDBOOK_BOOK__LANGUAGE=fr mdbook build -d book/fr
+```
+
+or en 
+
+```sh
+MDBOOK_BOOK__LANGUAGE=en mdbook build -d book/en
+```
+
+# serve
+
+fr
+
+ ```sh
+MDBOOK_BOOK__LANGUAGE=fr mdbook serve -d book/fr
+```
+
+or en 
+
+```sh
+MDBOOK_BOOK__LANGUAGE=fr mdbook serve -d book/fr
+```
+
+
