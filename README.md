@@ -25,10 +25,19 @@ cargo install mdbook
 * Install [`mdbook-admonish`](https://crates.io/crates/mdbook-admonish) (for styling)
 https://tommilligan.github.io/mdbook-admonish/reference.html
 
+
 ```sh
 cargo install mdbook-admonish
-
 ```
+
+* Install [`mdbook-catppuccin`](https://crates.io/crates/mdbook-catppuccin) (for styling)
+https://github.com/catppuccin/mdBook
+
+
+```sh
+cargo install mdbook-catppuccin
+```
+
 
 # I18N 
 mdbook-i18n-helpers (https://github.com/google/mdbook-i18n-helpers)
