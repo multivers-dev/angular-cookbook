@@ -50,7 +50,7 @@ jobs:
           restore-keys: ${{ runner.os }}-cargo-
       
       - name: Install dependencies
-        run:        
+        run: |       
           cargo install --force --version ${MDBOOK_VERSION} mdbook
           cargo install --force --path .  
           
