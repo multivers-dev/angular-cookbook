@@ -161,7 +161,12 @@
                           langToggle.addEventListener("click", (event) => {
                               langList.style.display = langList.style.display == "block" ? "none" : "block";
                           });
+                          // local http://localhost:3300/fr/
                           let urlLang = window.location.href.split('/')[3]
+                          if (urlLang !== 'en' or urlLang !=='fr'){
+                            // prod https://multivers-dev.github.io/angular-cookbook/fr/
+                            urlLang = window.location.href.split('/')[4]
+                          }
                           let selectedLang = document.getElementById(urlLang);
                            
                       
