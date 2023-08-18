@@ -5,48 +5,35 @@ Angular CookBook
 [_Angular CookBook_]() is an Open Source Participative Angular Knowledge built for the community.
 
 
-How to Contribute ? 
-
-# Terminal 
+ 
+# How to Install ?
 Use Linux Terminal
 
 ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
+
 ------------------------
-* Install [`cargo`](https://doc.rust-lang.org/cargo/getting-started/installation.html)
+* Install [`Rust`](https://www.rust-lang.org/tools/install)
+* Install [`Cargo`](https://doc.rust-lang.org/cargo/getting-started/installation.html)
 
 
-* Install [`mdbook`](https://github.com/rust-lang/mdBook)
-
+* Install dependencies from Cargo.toml 
 ```sh
-cargo install mdbook
+cargo install --path .
 ```
 
 
-* Install [`mdbook-admonish`](https://crates.io/crates/mdbook-admonish) (for styling)
-https://tommilligan.github.io/mdbook-admonish/reference.html
+# dependencies
+
+[`rustc`](https://www.rust-lang.org/tools/install) = 1.71.0
+
+[`mdbook`](https://github.com/rust-lang/mdBook) = "^0.4.34"
+
+[`mdbook-admonish`](https://crates.io/crates/mdbook-admonish) = "^1.10.2"
+
+[`mdbook-i18n-helpers`](https://github.com/google/mdbook-i18n-helpers) = "^0.2.1"
 
 
-```sh
-cargo install mdbook-admonish
-```
-
-* Install [`mdbook-catppuccin`](https://crates.io/crates/mdbook-catppuccin) (for styling)
-https://github.com/catppuccin/mdBook
-
-
-```sh
-cargo install mdbook-catppuccin
-```
-
-
-# I18N 
-mdbook-i18n-helpers (https://github.com/google/mdbook-i18n-helpers)
-
-```sh
-cargo install mdbook-i18n-helpers
-
-```
-
+# Builds
 
 * Run `build` in fr 
 
@@ -55,24 +42,26 @@ cargo install mdbook-i18n-helpers
 MDBOOK_BOOK__LANGUAGE=fr mdbook build -d book/fr
 ```
 
-or en 
+* Run `build` in en 
 
 ```sh
 MDBOOK_BOOK__LANGUAGE=en mdbook build -d book/en
 ```
 
-# serve
+# Serve
 
-fr
+* Run `serve` in fr 
 
  ```sh
 MDBOOK_BOOK__LANGUAGE=fr mdbook serve -d book/fr
 ```
 
-or en 
+* Run `serve` in en 
 
 ```sh
 MDBOOK_BOOK__LANGUAGE=fr mdbook serve -d book/fr
 ```
 
+
+How to Contribute ?
 
