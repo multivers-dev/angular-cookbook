@@ -33,6 +33,12 @@ cargo install --path .
 [`mdbook-i18n-helpers`](https://github.com/google/mdbook-i18n-helpers) = "^0.2.1"
 
 
+# i18n
+* Run `MDBOOK_OUTPUT='{"xgettext": {"pot-file": "messages.pot"}}' \ mdbook build -d po`
+* Update exting po for fr `msgmerge --update po/fr.po po/messages.pot`
+* Update exting po for en `msgmerge --update po/en.po po/messages.pot`
+
+  
 # Builds
 
 * Run `build` in fr 

@@ -20,3 +20,5 @@ book
 # already existing elements were commented out
 
 #/target
+
+/po/messages.pot
