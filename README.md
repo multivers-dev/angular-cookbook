@@ -5,46 +5,69 @@ Angular CookBook
 [_Angular CookBook_]() is an Open Source Participative Angular Knowledge built for the community.
 
 
-How to Contribute ? 
-
-# Terminal 
+ 
+# How to Install ?
 Use Linux Terminal
 
 ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
+
 ------------------------
-* Install [`cargo`](https://doc.rust-lang.org/cargo/getting-started/installation.html)
+* Install [`Rust`](https://www.rust-lang.org/tools/install)
+* Install [`Cargo`](https://doc.rust-lang.org/cargo/getting-started/installation.html)
 
 
-* Install [`mdbook`](https://github.com/rust-lang/mdBook)
-
+* Install dependencies from Cargo.toml 
 ```sh
-cargo install mdbook
+cargo install --path .
 ```
 
 
-* Install [`mdbook-admonish`](https://crates.io/crates/mdbook-admonish) (for styling)
-https://tommilligan.github.io/mdbook-admonish/reference.html
+# dependencies
+
+[`rustc`](https://www.rust-lang.org/tools/install) = 1.71.0
+
+[`mdbook`](https://github.com/rust-lang/mdBook) = "^0.4.34"
+
+[`mdbook-admonish`](https://crates.io/crates/mdbook-admonish) = "^1.10.2"
+
+[`mdbook-i18n-helpers`](https://github.com/google/mdbook-i18n-helpers) = "^0.2.1"
+
+
+# i18n
+* Run `MDBOOK_OUTPUT='{"xgettext": {"pot-file": "messages.pot"}}' \ mdbook build -d po`
+* Update exting po for fr `msgmerge --update po/fr.po po/messages.pot`
+* Update exting po for en `msgmerge --update po/en.po po/messages.pot`
+
+  
+# Builds
+
+* Run `build` in fr 
+
 
 ```sh
-cargo install mdbook-admonish
+MDBOOK_BOOK__LANGUAGE=fr mdbook build -d book/fr
 ```
 
-* Run `build`
+* Run `build` in en 
 
 ```sh
-mdbook build
+MDBOOK_BOOK__LANGUAGE=en mdbook build -d book/en
 ```
 
-### Warning: Recompile when `mdbook` is updated
+# Serve
 
-`mdbook-admonish` depend on particular versions of `mdbook`.
+* Run `serve` in fr 
 
-When `mdbook` is updated, it is best to reinstall both plugins to make sure that there are no
-version conflicts.
+ ```sh
+MDBOOK_BOOK__LANGUAGE=fr mdbook serve -d book/fr
+```
+
+* Run `serve` in en 
+
+```sh
+MDBOOK_BOOK__LANGUAGE=fr mdbook serve -d book/fr
+```
 
 
-# I18N 
-mdbook-i18n-helpers (https://github.com/google/mdbook-i18n-helpers)
-
-
+How to Contribute ?
 

@@ -11,6 +11,7 @@
 - [Content Projection](./content-projection.md)
     - [How to use content projection ?](./content-projection.md)
 - [Interpolation](./interpolation.md)
+    - [How to bind  ?](./how-to-bind.md)
     - [How to customize Component Interpolation](./how-to-customize-interpolation.md)
 - [Renderer](./renderer/index.md)
 
