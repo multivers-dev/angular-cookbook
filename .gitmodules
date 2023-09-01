@@ -1,0 +1,3 @@
+[submodule "examples/angular-ng-template-with-ngif-directive"]
+	path = examples/angular-ng-template-with-ngif-directive
+	url = https://github.com/jdansomon/angular-ng-template-with-ngif-directive
