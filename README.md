@@ -71,3 +71,5 @@ MDBOOK_BOOK__LANGUAGE=fr mdbook serve -d book/fr
 
 How to Contribute ?
 
+
+How to Write a recipe ?
