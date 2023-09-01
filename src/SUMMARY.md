@@ -21,5 +21,7 @@
         - [begin](./renderer/begin.md)
         - [end](./renderer/end.md)
         - [whenRenderingDone](./renderer/whenRenderingDone.md)
+    - [How to use ng-template ?](./renderer/ng-template/index.md)
+        - [Utilisation ng-template avec *ngIf ( else ) ?](./renderer/ng-template/utilisation-avec-ngif-et-else.md)
+    - [How to use ng-container ?](./renderer/ng-container/index.md)
 - [Contributors](./contributors.md)
-
