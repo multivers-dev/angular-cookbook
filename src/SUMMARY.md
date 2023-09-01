@@ -2,6 +2,7 @@
 
 - [Introduction](./introduction/introduction.md)
     - [Chapter 1](./chapter_1.md)
+    - [How to Pull Request ?](./how-to-pull-request.md)
 - [Lazy Loading](./lazy_loading.md)
     - [How to Lazy load Module ?](./lazy_loading_module.md)
     - [How to Lazy load Standalone Components](./lazy_loading_standalone_component.md)
@@ -22,4 +23,3 @@
         - [end](./renderer/end.md)
         - [whenRenderingDone](./renderer/whenRenderingDone.md)
 - [Contributors](./contributors.md)
-
