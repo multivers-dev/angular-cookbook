@@ -2,6 +2,10 @@
 
 
 
+# [](https://github.com/multivers-dev/angular-cookbook/compare/v1.2.0...v) (2023-09-11)
+
+
+
 # Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
