@@ -22,3 +22,6 @@ book
 #/target
 
 /po/messages.pot
+
+# Node
+node_modules
