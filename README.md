@@ -133,8 +133,20 @@ cargo install mdbook-i18n-helpers
 >
 >* Fork the project
 >* Create your branch
->* Commit your changes
->* Push to the branch
+>* Commit:
+>   * Use the [conventional commit](https://www.conventionalcommits.org/en/v1.0.0/) format
+>   * example: `feat: add new feature` (<type>[optional scope]: <description>)
+>   * description must be clear and explicit
+>   * all types of commit are allowed is here => [conventional commit types](./.cz-config.js)
+>   * (feat, fix, docs, style, refactor, add, remove)
+>   * use the imperative, present tense: “change” not “changed” nor “changes”
+>* run 
+>   ```sh 
+>   npx conventional-changelog -p angular -i CHANGELOG.md -s
+>   ```
+>* Push to the branch:
+>  * `git push --follow-tags`
+>  * or `git push --set-upstream --follow-tags origin <branch>`
 >* Open a Pull Request
 
 # License
