@@ -20,6 +20,8 @@
 
 ## Prerequisites
 
+> ***For the installation of the project, you need to install and use a bash terminal.***
+> you can use [git bash](https://git-scm.com/downloads) or [cmder](https://cmder.net/)
 
 ### Rust
 >### ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
@@ -27,7 +29,7 @@
 > The way to install rustup differs by platform:
 > * On Unix:
 >   ``` shell
->   run curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+>   curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 >   ```
 >   in your shell, This downloads and runs rustup-init.sh
 > 
@@ -44,22 +46,36 @@
 
 # Dependencies
 
-### Cargo
-
-Install dependencies from Cargo.toml
-```sh
-  run cargo install --path .
-```
-
->## ![Cargo](https://img.shields.io/badge/cargo-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
+### ![Cargo](https://img.shields.io/badge/cargo-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
 >[`rustc`](https://www.rust-lang.org/tools/install) = 1.71.0
->
->[`mdbook`](https://github.com/rust-lang/mdBook) = "^0.4.34"
->
->[`mdbook-admonish`](https://crates.io/crates/mdbook-admonish) = "^1.10.2"
->
->[`mdbook-i18n-helpers`](https://github.com/google/mdbook-i18n-helpers) = "^0.2.1"
->
+
+<br>
+Install dependencies from Cargo.toml
+
+```sh
+cargo install mdbook
+```
+[`mdbook`](https://github.com/rust-lang/mdBook) = "^0.4.34"
+
+<br>
+
+```sh
+cargo install --path .
+```
+<br>
+
+```sh
+cargo install mdbook-admonish
+```
+[`mdbook-admonish`](https://crates.io/crates/mdbook-admonish) = "^1.10.2"
+
+<br>
+
+```sh
+cargo install mdbook-i18n-helpers
+```
+[`mdbook-i18n-helpers`](https://github.com/google/mdbook-i18n-helpers) = "^0.2.1"
+
 
 
 ### i18n
@@ -68,11 +84,17 @@ Install dependencies from Cargo.toml
 >  ```sh
 >    MDBOOK_OUTPUT='{"xgettext": {"pot-file": "messages.pot"}}' \ mdbook build -d po
 >  ```
->* Update exting po for fr 
+>  or 
+>   ```sh
+>   MDBOOK_OUTPUT='{"xgettext": {"pot-file": "messages.pot"}}' mdbook build -d po
+>   ```
+>
+>
+>* Update existing po for fr 
 >  ```sh
 >    msgmerge --update po/fr.po po/messages.pot
 >  ```
->* Update exting po for en 
+>* Update existing po for en 
 >  ```sh
 >    msgmerge --update po/en.po po/messages.pot
 >  ```
