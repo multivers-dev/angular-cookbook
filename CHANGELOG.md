@@ -54,3 +54,4 @@ All notable changes to this project will be documented in this file. See [standa
 
 
 # [](https://github.com/multivers-dev/angular-cookbook/compare/v1.1.1...v) (2023-09-11)
+
