@@ -23,5 +23,8 @@
         - [whenRenderingDone](./renderer/whenRenderingDone.md)
 - [How to use ng-template ?](ng-template/index.md)
     - [How to use ng-template with-ngIf ?](ng-template/ng-template-with-ngIf.md)
+    - [How to use ngTemplateOutlet ?](ng-template/ng-template-outlet.md)
+    - [How to use ngTemplateOutlet with context ?](ng-template/ng-template-outlet-with-context.md)
+    - [How to use ng-template with ViewChild/ViewChildren and ContentChild/ContentChildren ?](ng-template/ng-template-with-viewChild-contentChild.md)
 - [How to use ng-container ?](ng-container/index.md)
 - [Contributors](./contributors.md)

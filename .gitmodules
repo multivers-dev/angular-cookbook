@@ -1,3 +1,9 @@
 [submodule "examples/angular-ng-template-with-ngif-directive"]
 	path = examples/angular-ng-template-with-ngif-directive
 	url = https://github.com/jdansomon/angular-ng-template-with-ngif-directive
+[submodule "examples/angular-ng-template-ngtemplateoutlet"]
+	path = examples/angular-ng-template-ngtemplateoutlet
+	url = https://github.com/jdansomon/angular-ng-template-ngtemplateoutlet.git
+[submodule "examples/viewchildviewchildren-and-contentchildcontentchildren"]
+	path = examples/viewchildviewchildren-and-contentchildcontentchildren
+	url = https://github.com/jdansomon/viewchildviewchildren-and-contentchildcontentchildren.git
