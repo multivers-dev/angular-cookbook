@@ -1,4 +1,9 @@
-# Version X.Y.Z (YYYY-MM-DD)
+
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+# [Version X.Y.Z] (YYYY-MM-DD)
 ## Added
 * List of new features added in this version
 ## Changes
@@ -7,10 +12,10 @@
 * List of bugs that were fixed in this version
 
 
-# Version X.Y.Z (YYYY-MM-DD)
+# [Version X.Y.Z] (YYYY-MM-DD)
 ## Added
 * List of new features added in this version
-## Breaking Changes
+## Changes
 * List of enhancements or improvements made in this version
 ## Bug Fixes
 * List of bugs that were fixed in this version
