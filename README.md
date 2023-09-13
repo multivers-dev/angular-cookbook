@@ -1,4 +1,4 @@
-  ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) CookBook
+![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) CookBook
 =============
 
 [_Angular CookBook_]() is an Open Source Participative Angular Knowledge built for the community.
@@ -9,8 +9,6 @@
     - [Prerequisites](#prerequisites)
         - [Rust](#rust)
     - [dependencies](#dependencies)
-        - [Cargo](#cargo)
-        - [i18n](#i18n)
 - [Builds](#builds)
 - [Serve](#serve)
 - [How to Contribute ?](#how-to-contribute-)
@@ -20,6 +18,8 @@
 
 ## Prerequisites
 
+> ***For the installation of the project, you need to install and use a bash terminal.***
+> you can use [git bash](https://git-scm.com/downloads) or [cmder](https://cmder.net/)
 
 ### Rust
 >### ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
@@ -27,7 +27,7 @@
 > The way to install rustup differs by platform:
 > * On Unix:
 >   ``` shell
->   run curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+>   curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 >   ```
 >   in your shell, This downloads and runs rustup-init.sh
 > 
@@ -44,22 +44,39 @@
 
 # Dependencies
 
-### Cargo
+>[`rustc`](https://www.rust-lang.org/tools/install) = 1.71.0
 
+<br>
+
+### ![mdbook](https://img.shields.io/badge/mdbook-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
+```sh
+cargo install mdbook
+```
+[`mdbook`](https://github.com/rust-lang/mdBook) = "^0.4.34"
+
+<br>
+
+### ![Cargo](https://img.shields.io/badge/cargo-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
 Install dependencies from Cargo.toml
 ```sh
-  run cargo install --path .
+cargo install --path .
 ```
+<br>
 
->## ![Cargo](https://img.shields.io/badge/cargo-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
->[`rustc`](https://www.rust-lang.org/tools/install) = 1.71.0
->
->[`mdbook`](https://github.com/rust-lang/mdBook) = "^0.4.34"
->
->[`mdbook-admonish`](https://crates.io/crates/mdbook-admonish) = "^1.10.2"
->
->[`mdbook-i18n-helpers`](https://github.com/google/mdbook-i18n-helpers) = "^0.2.1"
->
+### ![mdbook-admonish](https://img.shields.io/badge/mdbook--admonish-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
+```sh
+cargo install mdbook-admonish
+```
+[`mdbook-admonish`](https://crates.io/crates/mdbook-admonish) = "^1.10.2"
+
+<br>
+
+### ![mdbook-i18n-helpers](https://img.shields.io/badge/mdbook--i18n--helpers-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
+```sh
+cargo install mdbook-i18n-helpers
+```
+[`mdbook-i18n-helpers`](https://github.com/google/mdbook-i18n-helpers) = "^0.2.1"
+
 
 
 ### i18n
@@ -68,11 +85,17 @@ Install dependencies from Cargo.toml
 >  ```sh
 >    MDBOOK_OUTPUT='{"xgettext": {"pot-file": "messages.pot"}}' \ mdbook build -d po
 >  ```
->* Update exting po for fr 
+>  or 
+>   ```sh
+>   MDBOOK_OUTPUT='{"xgettext": {"pot-file": "messages.pot"}}' mdbook build -d po
+>   ```
+>
+>
+>* Update existing po for fr 
 >  ```sh
 >    msgmerge --update po/fr.po po/messages.pot
 >  ```
->* Update exting po for en 
+>* Update existing po for en 
 >  ```sh
 >    msgmerge --update po/en.po po/messages.pot
 >  ```
@@ -111,9 +134,15 @@ Install dependencies from Cargo.toml
 >
 >* Fork the project
 >* Create your branch
->* Commit your changes
->* Push to the branch
->* Open a Pull Request
+>* Commit:
+>   * Use the [conventional commit](https://www.conventionalcommits.org/en/v1.0.0/) format
+>   * example: `feat: add new feature` (<type>[optional scope]: <description>)
+>   * description must be clear and explicit
+>   * all types of commit are allowed is feat, fix, docs, style, refactor, add, remove...
+>   * use the imperative, present tense: “change” not “changed” nor “changes”
+>* Push to the branch:
+>  * `git push --follow-tags`
+>  * or `git push --set-upstream --follow-tags origin <branch>`
+>* Open a Pull Request in the `main` branch
 
-# License
 
