@@ -129,20 +129,4 @@ cargo install mdbook-i18n-helpers
 >MDBOOK_BOOK__LANGUAGE=fr mdbook serve -d book/fr
 >```
 
-# How to Contribute ?
-
->
->* Fork the project
->* Create your branch
->* Commit:
->   * Use the [conventional commit](https://www.conventionalcommits.org/en/v1.0.0/) format
->   * example: `feat: add new feature` (<type>[optional scope]: <description>)
->   * description must be clear and explicit
->   * all types of commit are allowed is feat, fix, docs, style, refactor, add, remove...
->   * use the imperative, present tense: “change” not “changed” nor “changes”
->* Push to the branch:
->  * `git push --follow-tags`
->  * or `git push --set-upstream --follow-tags origin <branch>`
->* Open a Pull Request in the `main` branch
-
-
+# [How to Contribute ?](./CONTRIBUTING.md)
