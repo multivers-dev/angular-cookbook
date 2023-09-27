@@ -5,6 +5,11 @@
 
 [Lazy Loading Module](./lazy_loading_module.md)
 
-[Lazy Loading Standalone Components ( NG 14+) ](./lazy_loading_standalone_component.md)
+[Lazy Loading Standalone Components ( NG 14+) ](./lazy_loading_standalone_component.md) 
+
+{{#include angular-version.md}}
+
+
+
 
 Read about [mdBook](mdBook.md)
