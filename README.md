@@ -52,7 +52,7 @@
 ```sh
 cargo install mdbook
 ```
-[`mdbook`](https://github.com/rust-lang/mdBook) = "^0.4.34"
+[`mdbook`](https://github.com/rust-lang/mdBook) = "^0.4.35"
 
 <br>
 
@@ -67,7 +67,7 @@ cargo install --path .
 ```sh
 cargo install mdbook-admonish
 ```
-[`mdbook-admonish`](https://crates.io/crates/mdbook-admonish) = "^1.10.2"
+[`mdbook-admonish`](https://crates.io/crates/mdbook-admonish) = "^1.13.1"
 
 <br>
 
@@ -75,7 +75,7 @@ cargo install mdbook-admonish
 ```sh
 cargo install mdbook-i18n-helpers
 ```
-[`mdbook-i18n-helpers`](https://github.com/google/mdbook-i18n-helpers) = "^0.2.1"
+[`mdbook-i18n-helpers`](https://github.com/google/mdbook-i18n-helpers) = "^0.2.4"
 
 
 
