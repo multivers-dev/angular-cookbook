@@ -11,136 +11,118 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src\SUMMARY.md:3
+#: src/SUMMARY.md:3
 msgid "Introduction"
 msgstr "Introduction"
 
-#: src\SUMMARY.md:4 src\chapter_1.md:1
-msgid "Chapter 1"
-msgstr "Chapter 1"
-
-#: src\SUMMARY.md:5 src\lazy_loading.md:1
+#: src/SUMMARY.md:4 src/lazy-loading/lazy_loading.md:1
 msgid "Lazy Loading"
-msgstr "Lazy Loading"
+msgstr "Chargement différé"
 
-#: src\SUMMARY.md:6 src\lazy_loading_module.md:1
+#: src/SUMMARY.md:5 src/lazy-loading/lazy_loading_module.md:1
 msgid "How to Lazy load Module ?"
-msgstr "How to Lazy load Module ?"
+msgstr "Comment charger un module de manière différée ?"
 
-#: src\SUMMARY.md:7 src\lazy_loading_standalone_component.md:1
+#: src/SUMMARY.md:6 src/lazy-loading/lazy_loading_standalone_component.md:1
 msgid "How to Lazy load Standalone Components"
-msgstr "How to Lazy load Standalone Components"
+msgstr "Comment charger un composant de manière différée ?"
 
-#: src\SUMMARY.md:8 src\lazy_loading_service.md:1
+#: src/SUMMARY.md:7 src/lazy-loading/lazy_loading_service.md:1
 msgid "How to Lazy load Service"
-msgstr "How to Lazy load Service"
+msgstr "Comment charger un service de manière différée ?"
 
-#: src\SUMMARY.md:9
+#: src/SUMMARY.md:8
 msgid "Preloading Strategy "
-msgstr "Preloading Strategy "
+msgstr "Stratégie de préchargement"
 
-#: src\SUMMARY.md:10 src\dynamic_load.md:1
-msgid "Dynamic Load"
-msgstr "Dynamic Load"
-
-#: src\SUMMARY.md:11 src\content-projection.md:1
-msgid "Content Projection"
-msgstr "Content Projection"
-
-#: src\SUMMARY.md:12
-msgid "How to use content projection ?"
-msgstr "How to use content projection ?"
-
-#: src\SUMMARY.md:13 src\interpolation.md:1
+#: src/SUMMARY.md:9 src/interpolation/index.md:1
 msgid "Interpolation"
 msgstr "Interpolation"
 
-#: src\SUMMARY.md:14 src\how-to-bind.md:1
+#: src/SUMMARY.md:10 src/interpolation/how-to-bind.md:1
 msgid "How to bind  ?"
-msgstr ""
+msgstr "Comment lier ?"
 
-#: src\SUMMARY.md:15
+#: src/SUMMARY.md:11
 msgid "How to customize Component Interpolation"
-msgstr "How to customize Component Interpolation"
+msgstr "Comment personnaliser l'interpolation d'un composant ?"
 
-#: src\SUMMARY.md:16
+#: src/SUMMARY.md:12
 msgid "Renderer"
 msgstr "Renderer"
 
-#: src\SUMMARY.md:18 src\renderer/how-to-create_comment.md:1
+#: src/SUMMARY.md:14 src/renderer/how-to-create_comment.md:1
 msgid "How to create comment ?"
-msgstr "How to create comment ?"
+msgstr "Comment créer un commentaire ?"
 
-#: src\SUMMARY.md:19
-msgid "RendererFactory2"
-msgstr "RendererFactory2"
-
-#: src\SUMMARY.md:20 src\renderer/createRenderer.md:1
-msgid "createRenderer"
-msgstr "createRenderer"
-
-#: src\SUMMARY.md:21 src\renderer/begin.md:1
-msgid "begin"
-msgstr "begin"
-
-#: src\SUMMARY.md:21 src\renderer/end.md:1
-msgid "end"
-msgstr "end"
-
-#: src\SUMMARY.md:23 src\renderer/whenRenderingDone.md:1
-msgid "whenRenderingDone"
-msgstr "whenRenderingDone"
-
-#: src\SUMMARY.md:24 src\renderer/ng-template/index.md:1
+#: src/SUMMARY.md:15 src/ng-template/index.md:1
 #, fuzzy
 msgid "How to use ng-template ?"
-msgstr "How to use content projection ?"
+msgstr "Comment utiliser ng-template avec ngIf ?"
 
-#: src\SUMMARY.md:25
-msgid "Utilisation ng-template avec *ngIf ( else ) ?"
+#: src/SUMMARY.md:16
+#, fuzzy
+msgid "How to use ng-template with-ngIf ?"
+msgstr "Comment utiliser ng-template avec ngIf ?"
+
+#: src/SUMMARY.md:17 src/ng-template/ng-template-outlet.md:1
+#, fuzzy
+msgid "How to use ngTemplateOutlet ?"
+msgstr "Commant utiliser ngTemplateOutlet ?"
+
+#: src/SUMMARY.md:18 src/ng-template/ng-template-outlet-with-context.md:1
+#, fuzzy
+msgid "How to use ngTemplateOutlet with context ?"
+msgstr "Comment utiliser ngTemplateOutlet avec context ?"
+
+#: src/SUMMARY.md:19
+msgid ""
+"How to use ng-template with ViewChild/ViewChildren and ContentChild/"
+"ContentChildren ?"
+msgstr ""
+"Comment utiliser ng-template avec ViewChild/ViewChildren et ContentChild/"
+"ContentChildren ?"
+
+#: src/SUMMARY.md:20 src/awesome-angular/awesome_angular.md:1
+msgid "Awesome Angular"
 msgstr ""
 
-#: src\SUMMARY.md:26 src\renderer/ng-container/index.md:1
-#, fuzzy
-msgid "How to use ng-container ?"
-msgstr "How to use content projection ?"
-
-#: src\SUMMARY.md:27 src\contributors.md:1
+#: src/SUMMARY.md:21 src/contributors.md:1
 msgid "Contributors"
-msgstr "Contributors"
+msgstr "Contributeurs"
 
-#: src\introduction/introduction.md:1
+#: src/introduction/introduction.md:1
 #, fuzzy
 msgid "Angular CookBook"
 msgstr "Angular CookBook "
 
-#: src\introduction/introduction.md:2
+#: src/introduction/introduction.md:2
 #, fuzzy
 msgid "![Angular CookBook ](./book-cover.png)"
 msgstr "Angular CookBook "
 
-#: src\introduction/introduction.md:4
+#: src/introduction/introduction.md:4
 #, fuzzy
 msgid "Angular Cookbook - How to do things with Angular"
 msgstr "## Angular Cookbook - How to do things with Angular \r"
 
-#: src\introduction/introduction.md:6
+#: src/introduction/introduction.md:6
 msgid "This is a book about doing things with Angular."
 msgstr "This is a book about doing things with Angular."
 
-#: src\introduction/introduction.md:8
+#: src/introduction/introduction.md:8
 msgid "It takes the form of \"How to\" articles."
 msgstr "It takes the form of \"How to\" articles."
 
-#: src\introduction/introduction.md:10
+#: src/introduction/introduction.md:10
 msgid "Everyone can participate !"
 msgstr "Everyone can participate !"
 
-#: src\introduction/introduction.md:12
+#: src/introduction/introduction.md:12
 msgid "Source code is store on [Github]()"
 msgstr "Source code is store on [Github]()"
 
-#: src\introduction/introduction.md:14
+#: src/introduction/introduction.md:14
 msgid ""
 "Build with ❤ by [Pierre Nédélec](https://www.linkedin.com/in/pierrenedelec-"
 "expert) "
@@ -148,66 +130,16 @@ msgstr ""
 "Build with ❤ by [Pierre Nédélec](https://www.linkedin.com/in/pierrenedelec-"
 "expert) "
 
-#: src\chapter_1.md:6
-msgid ""
-"```typescript\n"
-"interface Row<T extends object> {\n"
-"  $implicit: T\n"
-"}\n"
-"\n"
-"@Directive({\n"
-"  selector: 'ng-template[appTableRow]'\n"
-"})\n"
-"export class TableRowDirective<T extends object> {\n"
-"  @Input() appTableRow!: T[];\n"
-"\n"
-"  constructor() { }\n"
-"\n"
-"  static ngTemplateContextGuard<TContext extends object>(\n"
-"    directive: TableRowDirective<TContext>,\n"
-"    context: unknown\n"
-"  ): context is Row<TContext> {\n"
-"    return true;\n"
-"  }\n"
-"\n"
-"}\n"
-"\n"
-"```"
-msgstr ""
-"```typescript\n"
-"interface Row<T extends object> {\n"
-"  $implicit: T\n"
-"}\n"
-"\n"
-"@Directive({\n"
-"  selector: 'ng-template[appTableRow]'\n"
-"})\n"
-"export class TableRowDirective<T extends object> {\n"
-"  @Input() appTableRow!: T[];\n"
-"\n"
-"  constructor() { }\n"
-"\n"
-"  static ngTemplateContextGuard<TContext extends object>(\n"
-"    directive: TableRowDirective<TContext>,\n"
-"    context: unknown\n"
-"  ): context is Row<TContext> {\n"
-"    return true;\n"
-"  }\n"
-"\n"
-"}\n"
-"\n"
-"```"
-
-#: src\lazy_loading.md:3
+#: src/lazy-loading/lazy_loading.md:3
 #, fuzzy
-msgid "![Lazy Loading ](images/lazy-loading.png)"
+msgid "![Lazy Loading ](../images/lazy-loading.png)"
 msgstr "[Lazy Loading Module](./lazy_loading_module.md)"
 
-#: src\lazy_loading.md:6
+#: src/lazy-loading/lazy_loading.md:6
 msgid "[Lazy Loading Module](./lazy_loading_module.md)"
 msgstr "[Lazy Loading Module](./lazy_loading_module.md)"
 
-#: src\lazy_loading.md:8
+#: src/lazy-loading/lazy_loading.md:8
 msgid ""
 "[Lazy Loading Standalone Components ( NG 14+) ](./"
 "lazy_loading_standalone_component.md)"
@@ -215,11 +147,11 @@ msgstr ""
 "[Lazy Loading Standalone Components ( NG 14+) ](./"
 "lazy_loading_standalone_component.md)"
 
-#: src\lazy_loading.md:10
+#: src/lazy-loading/lazy_loading.md:10
 msgid "Read about [mdBook](mdBook.md)"
 msgstr "Read about [mdBook](mdBook.md)"
 
-#: src\lazy_loading_module.md:4
+#: src/lazy-loading/lazy_loading_module.md:4
 msgid ""
 "```typescript\n"
 "RouterModule.forRoot([\n"
@@ -243,12 +175,12 @@ msgstr ""
 "\n"
 "```"
 
-#: src\lazy_loading_module.md:14
+#: src/lazy-loading/lazy_loading_module.md:14
 #, fuzzy
 msgid "Why/When to Lazy load Module ?"
 msgstr "# Why/When to Lazy load Module ?"
 
-#: src\lazy_loading_module.md:16
+#: src/lazy-loading/lazy_loading_module.md:16
 msgid ""
 "You Application might contains differents features which are related to "
 "specific part of your application. "
@@ -256,7 +188,7 @@ msgstr ""
 "You Application might contains differents features which are related to "
 "specific part of your application. "
 
-#: src\lazy_loading_module.md:19
+#: src/lazy-loading/lazy_loading_module.md:19
 msgid ""
 "Lazy loading module help you to add features to your application without "
 "having to increase runtime performance."
@@ -264,36 +196,32 @@ msgstr ""
 "Lazy loading module help you to add features to your application without "
 "having to increase runtime performance."
 
-#: src\lazy_loading_module.md:21
+#: src/lazy-loading/lazy_loading_module.md:21
 msgid "Related Topics :"
 msgstr "Related Topics :"
 
-#: src\lazy_loading_module.md:24
+#: src/lazy-loading/lazy_loading_module.md:24
 msgid "[Preloading Strategy ](./preloading_strategy.md)"
 msgstr "[Preloading Strategy ](./preloading_strategy.md)"
 
-#: src\preloading_strategy.md:1
+#: src/lazy-loading/preloading_strategy.md:1
 #, fuzzy
 msgid "Preloading Strategy"
 msgstr "Preloading Strategy "
 
-#: src\dynamic_load.md:2
-msgid "test"
-msgstr ""
-
-#: src\how-to-bind.md:3
+#: src/interpolation/how-to-bind.md:3
 msgid ""
 "```html\n"
 "<div id={{myId}}></div > == <div [id]=\"myId\"></div >\n"
 "```"
 msgstr ""
 
-#: src\how-to-customize-interpolation.md:1
+#: src/interpolation/how-to-customize-interpolation.md:1
 #, fuzzy
 msgid "How to customize Component Interpolation ?"
 msgstr "# How to customize Component Interpolation ?"
 
-#: src\how-to-customize-interpolation.md:3
+#: src/interpolation/how-to-customize-interpolation.md:3
 msgid ""
 "```typescript\n"
 "import { Component } from '@angular/core';\n"
@@ -325,7 +253,7 @@ msgstr ""
 "\n"
 "```"
 
-#: src\how-to-customize-interpolation.md:17
+#: src/interpolation/how-to-customize-interpolation.md:17
 msgid ""
 "```admonish note\n"
 "If you need to display \"{{\" \"}}\" characters in template you can attach a "
@@ -337,7 +265,7 @@ msgstr ""
 "property to your component without customize interpolation\n"
 "```"
 
-#: src\how-to-customize-interpolation.md:21
+#: src/interpolation/how-to-customize-interpolation.md:21
 msgid ""
 "```admonish tldr\n"
 "😆 Have fun with emoji customization [link](https://unicode.org/emoji/charts/"
@@ -349,19 +277,25 @@ msgstr ""
 "full-emoji-list.html)\n"
 "```"
 
-#: src\how-to-customize-interpolation.md:28
-#: src\renderer/how-to-create_comment.md:27
-#: src\renderer/ng-template/utilisation-avec-ngif-et-else.md:31
+#: src/interpolation/how-to-customize-interpolation.md:28
+#: src/renderer/how-to-create_comment.md:27
+#: src/ng-template/ng-template-with-ngIf.md:30
+#: src/ng-template/ng-template-outlet.md:35
+#: src/ng-template/ng-template-outlet-with-context.md:21
+#: src/ng-template/ng-template-with-viewChild-contentChild.md:76
 msgid "["
 msgstr ""
 
-#: src\how-to-customize-interpolation.md:28
-#: src\renderer/how-to-create_comment.md:27
-#: src\renderer/ng-template/utilisation-avec-ngif-et-else.md:31
+#: src/interpolation/how-to-customize-interpolation.md:28
+#: src/renderer/how-to-create_comment.md:27
+#: src/ng-template/ng-template-with-ngIf.md:30
+#: src/ng-template/ng-template-outlet.md:35
+#: src/ng-template/ng-template-outlet-with-context.md:21
+#: src/ng-template/ng-template-with-viewChild-contentChild.md:76
 msgid "]()"
 msgstr ""
 
-#: src\renderer/index.md:1
+#: src/renderer/index.md:1
 #, fuzzy
 msgid ""
 "Renderer2 ![](https://img.shields.io/static/v1?"
@@ -370,7 +304,7 @@ msgstr ""
 "# Renderer2 ![](https://img.shields.io/static/v1?"
 "label=&message=CLASS&color=blue)"
 
-#: src\renderer/how-to-create_comment.md:4
+#: src/renderer/how-to-create_comment.md:4
 msgid ""
 "```typescript\n"
 "import { Component, ElementRef, Renderer2, VERSION } from '@angular/core';\n"
@@ -410,7 +344,7 @@ msgstr ""
 "\n"
 "```"
 
-#: src\renderer/how-to-create_comment.md:23
+#: src/renderer/how-to-create_comment.md:23
 msgid ""
 "```admonish tldr\n"
 "It's use by Angular internal rendering proccess that's why comment appear "
@@ -422,68 +356,88 @@ msgstr ""
 "when we use *ngIf or *ngFor \n"
 "```"
 
-#: src\renderer/rendererFactory2.md:1
-#, fuzzy
-msgid ""
-"RendererFactory2 ![](https://img.shields.io/static/v1?"
-"label=&message=CLASS&color=blue)"
-msgstr ""
-"# RendererFactory2 ![](https://img.shields.io/static/v1?"
-"label=&message=CLASS&color=blue)"
-
-#: src\renderer/rendererFactory2.md:3
-msgid ""
-"Creates and initializes a custom renderer that implements the Renderer2 base "
-"class."
-msgstr ""
-"Creates and initializes a custom renderer that implements the Renderer2 base "
-"class."
-
-#: src\renderer/rendererFactory2.md:5
-msgid "[createRenderer](./createRenderer.md)"
-msgstr ""
-
-#: src\renderer/rendererFactory2.md:6
-msgid "[begin](./begin.md)"
-msgstr ""
-
-#: src\renderer/rendererFactory2.md:7
-msgid "[end](./end.md)"
-msgstr ""
-
-#: src\renderer/rendererFactory2.md:8
-msgid "[whenRenderingDone](./whenRenderingDone.md)"
-msgstr ""
-
-#: src\renderer/ng-template/index.md:3
+#: src/ng-template/index.md:2
 msgid "Definitions"
 msgstr ""
 
-#: src\renderer/ng-template/index.md:4
+#: src/ng-template/index.md:3
 msgid "ng-template"
 msgstr ""
 
-#: src\renderer/ng-template/index.md:5
+#: src/ng-template/index.md:4
 msgid "The \\`"
 msgstr ""
 
-#: src\renderer/ng-template/index.md:5
+#: src/ng-template/index.md:4
 msgid ""
 " is an Angular element, which contains the template. A template is an HTML "
 "snippet. The template does not render itself on DOM."
 msgstr ""
 
-#: src\renderer/ng-template/utilisation-avec-ngif-et-else.md:1
-msgid "The ng-template directive and ngIf"
+#: src/ng-template/index.md:6
+msgid "ng-template-outlet"
 msgstr ""
 
-#: src\renderer/ng-template/utilisation-avec-ngif-et-else.md:2
+#: src/ng-template/index.md:7
 msgid ""
-"`ng-template` for the first time while implementing an `if/else` scenario "
-"such as for example this one:"
+"The `ngTemplateOutlet` directive allows you to dynamically render templates "
+"in your Angular components, which can be very useful for creating reusable "
+"and flexible UI components."
 msgstr ""
 
-#: src\renderer/ng-template/utilisation-avec-ngif-et-else.md:4
+#: src/ng-template/index.md:9
+msgid "ViewChild/ViewChildren and ContentChild/ContentChildren"
+msgstr ""
+
+#: src/ng-template/index.md:10
+msgid ""
+"`ViewChild` and `ViewChildren` are used to access the DOM elements or "
+"directives from a component template. `ContentChild` and `ContentChildren` "
+"are used to access the DOM elements or directives from the content of a "
+"component."
+msgstr ""
+
+#: src/ng-template/index.md:13
+msgid "Table of contents"
+msgstr ""
+
+#: src/ng-template/index.md:14
+msgid ""
+"[How to use ng-template with ngIf directive ? ](./ng-template-with-ngIf.md)"
+msgstr ""
+
+#: src/ng-template/index.md:15
+msgid "[How to use ngTemplateOutlet ?](./ng-template-outlet.md)"
+msgstr ""
+
+#: src/ng-template/index.md:16
+msgid ""
+"[How to use ngTemplateOutlet with context ?](./ng-template-outlet-with-"
+"context.md)"
+msgstr ""
+
+#: src/ng-template/index.md:17
+msgid ""
+"[How to use ng-template with ViewChild/ViewChildren and ContentChild/"
+"ContentChildren ?](./ng-template-with-viewChild-contentChild.md)"
+msgstr ""
+
+#: src/ng-template/ng-template-with-ngIf.md:1
+msgid "The ng-template with ngIf directive"
+msgstr ""
+
+#: src/ng-template/ng-template-with-ngIf.md:3
+msgid ""
+"```admonish note\n"
+"`<ng-template>` in Angular is a angular `element` used to define and render "
+"content dynamically within components. It's a versatile tool for creating "
+"reusable templates, handling rendering logic, and improving code "
+"organization by separating content from its presentation, commonly used with "
+"structural directives like `*ngIf`, `*ngFor`, and `*ngSwitch`.\n"
+"```"
+msgstr ""
+
+#: src/ng-template/ng-template-with-ngIf.md:7
 msgid ""
 "```html\n"
 "<div *ngIf=\"items else loading\">\n"
@@ -496,27 +450,11 @@ msgid ""
 "```"
 msgstr ""
 
-#: src\renderer/ng-template/utilisation-avec-ngif-et-else.md:14
-msgid ""
-"This is a very common use of the ngIf/else functionality: we display an "
-"alternative loading template while waiting for the data to arrive from the "
-"backend."
+#: src/ng-template/ng-template-with-ngIf.md:17
+msgid "or "
 msgstr ""
 
-#: src\renderer/ng-template/utilisation-avec-ngif-et-else.md:16
-msgid ""
-"As we can see, the else clause is pointing to a template, which has the name "
-"loading. The name was assigned to it via a template reference, using the "
-"#loading syntax."
-msgstr ""
-
-#: src\renderer/ng-template/utilisation-avec-ngif-et-else.md:18
-msgid ""
-"But besides that else template, the use of ngIf also creates a second "
-"implicit ng-template! Let's have a look at what is happening under the hood:"
-msgstr ""
-
-#: src\renderer/ng-template/utilisation-avec-ngif-et-else.md:20
+#: src/ng-template/ng-template-with-ngIf.md:19
 msgid ""
 "```html\n"
 "<ng-template [ngIf]=\"items\" [ngIfElse]=\"loading\">\n"
@@ -531,10 +469,380 @@ msgid ""
 "```"
 msgstr ""
 
-#: src\contributors.md:3
+#: src/ng-template/ng-template-outlet.md:3
+#: src/ng-template/ng-template-outlet-with-context.md:3
+msgid ""
+"```admonish note\n"
+"`ngTemplateOutlet` allows you to dynamically render templates in your "
+"Angular components, which can be very useful for creating reusable and "
+"flexible UI components.\n"
+"```"
+msgstr ""
+
+#: src/ng-template/ng-template-outlet.md:7
+msgid ""
+"```html\n"
+"<div>you can see me</div>\n"
+"\n"
+"<ng-template #myTemplate>\n"
+"    <div>you can't see me </div>\n"
+"</ng-template>\n"
+"\n"
+"```"
+msgstr ""
+
+#: src/ng-template/ng-template-outlet.md:17
+msgid ""
+"```html\n"
+"<div>you can see me</div>\n"
+"\n"
+"<ng-template #myTemplate>\n"
+"    <div>you can see me if you used ngTemplateOutlet</div>\n"
+"</ng-template>\n"
+"\n"
+"<ng-container *ngTemplateOutlet=\"myTemplate\">\n"
+"    <p>I won't be displayed</p>\n"
+"</ng-container>\n"
+"\n"
+"or \n"
+"\n"
+"<ng-container [ngTemplateOutlet]=\"myTemplate\">\n"
+"    <p>I won't be displayed</p>\n"
+"</ng-container>\n"
+"```"
+msgstr ""
+
+#: src/ng-template/ng-template-outlet-with-context.md:7
+msgid ""
+"```html\n"
+"<ng-template #myTemplate let-name=\"name\">\n"
+"    <div>hello {{name}}</div>\n"
+"</ng-template>\n"
+"\n"
+"<ng-container *ngTemplateOutlet=\"myTemplate; context: {name: 'Angular "
+"CookBook'}\">\n"
+"</ng-container>\n"
+"\n"
+"or\n"
+"\n"
+"<ng-container "
+"[ngTemplateOutlet]=\"myTemplate\" [ngTemplateOutletContext]=\"{name: "
+"'Angular CookBook'}\">\n"
+"</ng-container>\n"
+"```"
+msgstr ""
+
+#: src/ng-template/ng-template-with-viewChild-contentChild.md:1
+msgid ""
+"ng-template with ViewChild/ViewChildren and ContentChild/ContentChildren ?"
+msgstr ""
+
+#: src/ng-template/ng-template-with-viewChild-contentChild.md:2
+msgid ""
+"```admonish note\n"
+"In Angular, ViewChild, ViewChildren, ContentChild, and ContentChildren are "
+"used for component communication. They enable a parent component to access "
+"its child components.\n"
+"```"
+msgstr ""
+
+#: src/ng-template/ng-template-with-viewChild-contentChild.md:7
+msgid "ViewChild and ViewChildren"
+msgstr ""
+
+#: src/ng-template/ng-template-with-viewChild-contentChild.md:9
+msgid ""
+"```admonish note\n"
+"`ViewChild` is used to access a single child component or a DOM element, "
+"while `ViewChildren` is used when there are multiple child components or DOM "
+"elements of the same type. \n"
+"```"
+msgstr ""
+
+#: src/ng-template/ng-template-with-viewChild-contentChild.md:14
+msgid ""
+"```typescript\n"
+"@Component({\n"
+"  selector: 'hello',\n"
+"  template: `<h1>Hello {{name}}!</h1>`, \n"
+"  styles: [`h1 { font-family: Lato; }`],\n"
+"  standalone: true\n"
+"})\n"
+"export class HelloComponent  {\n"
+"  @Input() name: string;\n"
+"}\n"
+"```"
+msgstr ""
+
+#: src/ng-template/ng-template-with-viewChild-contentChild.md:26
+msgid "`ViewChild` can be used to access the `HelloComponent` instance:"
+msgstr ""
+
+#: src/ng-template/ng-template-with-viewChild-contentChild.md:28
+#, fuzzy
+msgid ""
+"```typescript\n"
+"import { Component, ViewChild, AfterViewInit } from '@angular/core';\n"
+"\n"
+"@Component({\n"
+"  selector: 'my-app',\n"
+"  templateUrl: './app.component.html',\n"
+"  styleUrls: [ './app.component.css' ], \n"
+"  standalone: true,\n"
+"  imports: [HelloComponent]\n"
+"})\n"
+"export class AppComponent implements AfterViewInit {\n"
+"  name = 'Angular';\n"
+"  @ViewChild(HelloComponent, {static: false}) hello: HelloComponent;\n"
+"  ngAfterViewInit() {\n"
+"    console.log('Hello ', this.hello.name); \n"
+"  }\n"
+"}\n"
+"```"
+msgstr ""
+"```typescript\n"
+"import { Component, ElementRef, Renderer2, VERSION } from '@angular/core';\n"
+"\n"
+"@Component({\n"
+"  selector: 'my-app',\n"
+"  templateUrl: './app.component.html',\n"
+"  styleUrls: ['./app.component.css'],\n"
+"})\n"
+"export class AppComponent {\n"
+"  name = 'Angular ' + VERSION.major;\n"
+"  constructor(private renderer: Renderer2, private elRef: ElementRef) {\n"
+"    const comment = this.renderer.createComment('My Comment');\n"
+"    this.renderer.appendChild(elRef.nativeElement, comment);\n"
+"  }\n"
+"}\n"
+"\n"
+"\n"
+"```"
+
+#: src/ng-template/ng-template-with-viewChild-contentChild.md:47
+msgid ""
+"In this example, `ViewChild` is used to get a reference to `HelloComponent` "
+"and access its `name` property ."
+msgstr ""
+
+#: src/ng-template/ng-template-with-viewChild-contentChild.md:50
+msgid "`ViewChildren` can be used in a similar way:"
+msgstr ""
+
+#: src/ng-template/ng-template-with-viewChild-contentChild.md:52
+msgid ""
+"```typescript\n"
+"import { Component, ViewChildren, AfterViewInit, QueryList } from '@angular/"
+"core';\n"
+"import { HelloComponent } from './hello.component';\n"
+"\n"
+"@Component({\n"
+"  selector: 'my-app',\n"
+"  templateUrl: './app.component.html',\n"
+"  styleUrls: [ './app.component.css' ],\n"
+"  standalone: true,\n"
+"  imports: [HelloComponent]\n"
+"})\n"
+"export class AppComponent implements AfterViewInit {\n"
+"  name = 'Angular';\n"
+"  @ViewChildren(HelloComponent) hellos: QueryList<any>;\n"
+"  ngAfterViewInit() {\n"
+"     this.hellos.forEach(hello => console.log(hello));\n"
+"  }\n"
+"}\n"
+"```"
+msgstr ""
+
+#: src/ng-template/ng-template-with-viewChild-contentChild.md:73
+msgid ""
+"In this case, `ViewChildren` returns a `QueryList` of `HelloComponent` "
+"instances, and in `ngAfterViewInit`, we iterate over this list and log each "
+"instance."
+msgstr ""
+
+#: src/ng-template/ng-template-with-viewChild-contentChild.md:78
+msgid "ContentChild and ContentChildren"
+msgstr ""
+
+#: src/ng-template/ng-template-with-viewChild-contentChild.md:80
+msgid ""
+"```admonish note\n"
+"`ContentChild` and `ContentChildren` are similar to `ViewChild` and "
+"`ViewChildren`, but they are used to access projected content (content that "
+"is passed from a parent component to a child component through `ng-"
+"content`).\n"
+"```"
+msgstr ""
+
+#: src/ng-template/ng-template-with-viewChild-contentChild.md:83
+msgid "Here's an example of how to use `ContentChild`:"
+msgstr ""
+
+#: src/ng-template/ng-template-with-viewChild-contentChild.md:85
+msgid ""
+"```typescript\n"
+"import { Component } from '@angular/core';\n"
+"\n"
+"@Component({\n"
+"  selector: 'card',\n"
+"  template: `\n"
+"    <div class=\"card\">\n"
+"      <ng-content select=\"header\"></ng-content>\n"
+"      <ng-content select=\"content\"></ng-content>\n"
+"      <ng-content select=\"footer\"></ng-content>\n"
+"    </div> \n"
+"  `,\n"
+"  styles: [\n"
+"    ` .card { min- width: 280px;  margin: 5px;  float:left  } \n"
+"    `\n"
+"  ]\n"
+"})\n"
+"export class CardComponent {\n"
+"  @ContentChild('header') cardContentHeader: ElementRef;\n"
+"}\n"
+"```"
+msgstr ""
+
+#: src/ng-template/ng-template-with-viewChild-contentChild.md:106
+msgid ""
+"In this case, `ContentChild` is used to get a reference to the projected "
+"`header` content."
+msgstr ""
+
+#: src/ng-template/ng-template-with-viewChild-contentChild.md:108
+msgid ""
+"`ContentChildren` can be used to get a list of projected content elements:"
+msgstr ""
+
+#: src/ng-template/ng-template-with-viewChild-contentChild.md:110
+msgid ""
+"```typescript\n"
+"import { Component, ContentChildren, ElementRef, QueryList } from '@angular/"
+"core';\n"
+"\n"
+"@Component({\n"
+"  selector: 'my-component',\n"
+"  template: `...`\n"
+"})\n"
+"export class MyComponent {\n"
+"  @ContentChildren('item') items: QueryList<ElementRef>;\n"
+"}\n"
+"```"
+msgstr ""
+
+#: src/ng-template/ng-template-with-viewChild-contentChild.md:121
+msgid ""
+"In this example, `ContentChildren` is used to get a `QueryList` of projected "
+"content elements with the template reference variable 'item'."
+msgstr ""
+
+#: src/ng-template/ng-template-with-viewChild-contentChild.md:123
+msgid ""
+"In conclusion, `ViewChild` and `ViewChildren` are used to access child "
+"components and DOM elements directly added in the component's template. In "
+"contrast, `ContentChild` and `ContentChildren` are used to access projected "
+"content added in the component through `ng-content`."
+msgstr ""
+
+#: src/awesome-angular/awesome_angular.md:2
+msgid "![Awesome Angular](./awesome-angular.png)"
+msgstr ""
+
+#: src/contributors.md:3
 #, fuzzy
 msgid "[Pierre Nédélec](https://www.linkedin.com/in/pierrenedelec-angular/) "
 msgstr "[Pierre Nédélec](https://www.linkedin.com/in/pierrenedelec-expert) "
+
+#~ msgid "Chapter 1"
+#~ msgstr "Chapter 1"
+
+#~ msgid "Dynamic Load"
+#~ msgstr "Dynamic Load"
+
+#~ msgid "Content Projection"
+#~ msgstr "Content Projection"
+
+#~ msgid "How to use content projection ?"
+#~ msgstr "How to use content projection ?"
+
+#~ msgid "RendererFactory2"
+#~ msgstr "RendererFactory2"
+
+#~ msgid "createRenderer"
+#~ msgstr "createRenderer"
+
+#~ msgid "begin"
+#~ msgstr "begin"
+
+#~ msgid "end"
+#~ msgstr "end"
+
+#~ msgid "whenRenderingDone"
+#~ msgstr "whenRenderingDone"
+
+#~ msgid ""
+#~ "```typescript\n"
+#~ "interface Row<T extends object> {\n"
+#~ "  $implicit: T\n"
+#~ "}\n"
+#~ "\n"
+#~ "@Directive({\n"
+#~ "  selector: 'ng-template[appTableRow]'\n"
+#~ "})\n"
+#~ "export class TableRowDirective<T extends object> {\n"
+#~ "  @Input() appTableRow!: T[];\n"
+#~ "\n"
+#~ "  constructor() { }\n"
+#~ "\n"
+#~ "  static ngTemplateContextGuard<TContext extends object>(\n"
+#~ "    directive: TableRowDirective<TContext>,\n"
+#~ "    context: unknown\n"
+#~ "  ): context is Row<TContext> {\n"
+#~ "    return true;\n"
+#~ "  }\n"
+#~ "\n"
+#~ "}\n"
+#~ "\n"
+#~ "```"
+#~ msgstr ""
+#~ "```typescript\n"
+#~ "interface Row<T extends object> {\n"
+#~ "  $implicit: T\n"
+#~ "}\n"
+#~ "\n"
+#~ "@Directive({\n"
+#~ "  selector: 'ng-template[appTableRow]'\n"
+#~ "})\n"
+#~ "export class TableRowDirective<T extends object> {\n"
+#~ "  @Input() appTableRow!: T[];\n"
+#~ "\n"
+#~ "  constructor() { }\n"
+#~ "\n"
+#~ "  static ngTemplateContextGuard<TContext extends object>(\n"
+#~ "    directive: TableRowDirective<TContext>,\n"
+#~ "    context: unknown\n"
+#~ "  ): context is Row<TContext> {\n"
+#~ "    return true;\n"
+#~ "  }\n"
+#~ "\n"
+#~ "}\n"
+#~ "\n"
+#~ "```"
+
+#, fuzzy
+#~ msgid ""
+#~ "RendererFactory2 ![](https://img.shields.io/static/v1?"
+#~ "label=&message=CLASS&color=blue)"
+#~ msgstr ""
+#~ "# RendererFactory2 ![](https://img.shields.io/static/v1?"
+#~ "label=&message=CLASS&color=blue)"
+
+#~ msgid ""
+#~ "Creates and initializes a custom renderer that implements the Renderer2 "
+#~ "base class."
+#~ msgstr ""
+#~ "Creates and initializes a custom renderer that implements the Renderer2 "
+#~ "base class."
 
 #~ msgid "# Angular CookBook \r"
 #~ msgstr "# Angular CookBook \r"
