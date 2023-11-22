@@ -59,6 +59,8 @@ jobs:
       - name: Build with mdBook
         run: |
           for lang in ${{ env.LANGUAGES }}; do
+            MDBOOK_OUTPUT__HTML__SITE_URL=/book/$lang/ \
+            MDBOOK_OUTPUT__HTML__REDIRECT='{}' \
             MDBOOK_BOOK__LANGUAGE=$lang mdbook build -d book/$lang
           done
       - name: Upload artifact
