@@ -2,7 +2,7 @@
 authors = ["Pierre Nédélec"]
 description = "Angular-CookBook"
 language = "en"
-multilingual = false
+multilingual = true
 src = "src"
 title = "Angular-CookBook"
 
