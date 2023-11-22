@@ -1,130 +1,116 @@
-msgid ""
-msgstr ""
-"Project-Id-Version: Angular-CookBook\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-28 04:10+0200\n"
-"Last-Translator: U-coder\\pierre <contact@multivers.dev>\n"
-"Language-Team: French\n"
-"Language: fr\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-
 #: src/SUMMARY.md:3
 msgid "Introduction"
-msgstr ""
+msgstr "Introduction"
 
-#: src/SUMMARY.md:4 src/lazy-loading/lazy_loading.md:1
+#: src/SUMMARY.md:5
+msgid "Articles"
+msgstr "Articles"
+
+#: src/SUMMARY.md:6 src/lazy-loading/lazy_loading.md:1
 msgid "Lazy Loading"
-msgstr ""
+msgstr "Chargement différé"
 
-#: src/SUMMARY.md:5 src/lazy-loading/lazy_loading_module.md:1
+#: src/SUMMARY.md:7 src/lazy-loading/lazy_loading_module.md:1
 msgid "How to Lazy load Module ?"
-msgstr ""
+msgstr "Comment charger un module de manière différée ?"
 
-#: src/SUMMARY.md:6 src/lazy-loading/lazy_loading_standalone_component.md:1
+#: src/SUMMARY.md:8 src/lazy-loading/lazy_loading_standalone_component.md:1
 msgid "How to Lazy load Standalone Components"
-msgstr ""
+msgstr "Comment charger un composant Standalone de manière différée ?"
 
-#: src/SUMMARY.md:7 src/lazy-loading/lazy_loading_service.md:1
+#: src/SUMMARY.md:9 src/lazy-loading/lazy_loading_service.md:1
 msgid "How to Lazy load Service"
-msgstr ""
+msgstr "Comment charger un service de manière différée ?"
 
-#: src/SUMMARY.md:8
+#: src/SUMMARY.md:10
 msgid "Preloading Strategy "
-msgstr ""
+msgstr "Stratégie de préchargement"
 
-#: src/SUMMARY.md:9 src/interpolation/index.md:1
+#: src/SUMMARY.md:11 src/interpolation/index.md:1
 msgid "Interpolation"
-msgstr ""
+msgstr "Interpolation"
 
-#: src/SUMMARY.md:10 src/interpolation/how-to-bind.md:1
+#: src/SUMMARY.md:12 src/interpolation/how-to-bind.md:1
 msgid "How to bind  ?"
-msgstr ""
+msgstr "Comment lier ?"
 
-#: src/SUMMARY.md:11
+#: src/SUMMARY.md:13
 msgid "How to customize Component Interpolation"
-msgstr ""
+msgstr "Comment personnaliser l'interpolation d'un composant ?"
 
-#: src/SUMMARY.md:12
+#: src/SUMMARY.md:14
 msgid "Renderer"
 msgstr ""
 
-#: src/SUMMARY.md:14 src/renderer/how-to-create_comment.md:1
+#: src/SUMMARY.md:16 src/renderer/how-to-create_comment.md:1
 msgid "How to create comment ?"
 msgstr ""
 
-#: src/SUMMARY.md:15 src/ng-template/index.md:1
-#, fuzzy
+#: src/SUMMARY.md:17 src/ng-template/index.md:1
 msgid "How to use ng-template ?"
 msgstr ""
 
-#: src/SUMMARY.md:16
-#, fuzzy
+#: src/SUMMARY.md:18
 msgid "How to use ng-template with-ngIf ?"
 msgstr ""
 
-#: src/SUMMARY.md:17 src/ng-template/ng-template-outlet.md:1
-#, fuzzy
+#: src/SUMMARY.md:19 src/ng-template/ng-template-outlet.md:1
 msgid "How to use ngTemplateOutlet ?"
 msgstr ""
 
-#: src/SUMMARY.md:18 src/ng-template/ng-template-outlet-with-context.md:1
-#, fuzzy
+#: src/SUMMARY.md:20 src/ng-template/ng-template-outlet-with-context.md:1
 msgid "How to use ngTemplateOutlet with context ?"
 msgstr ""
 
-#: src/SUMMARY.md:19
+#: src/SUMMARY.md:21
 msgid ""
 "How to use ng-template with ViewChild/ViewChildren and ContentChild/"
 "ContentChildren ?"
 msgstr ""
 
-#: src/SUMMARY.md:20 src/awesome-angular/awesome_angular.md:1
+#: src/SUMMARY.md:22 src/awesome-angular/awesome_angular.md:1
 msgid "Awesome Angular"
 msgstr ""
 
-#: src/SUMMARY.md:21 src/contributors.md:1
+#: src/SUMMARY.md:26 src/contributors.md:1
 msgid "Contributors"
 msgstr ""
 
-#: src/introduction/introduction.md:1
+#: src/index.md:1
 msgid "Angular CookBook"
 msgstr ""
 
-#: src/introduction/introduction.md:2
-msgid "![Angular CookBook ](./book-cover.png)"
+#: src/index.md:2
+msgid "![Angular CookBook ](./introduction/book-cover.png)"
 msgstr ""
 
-#: src/introduction/introduction.md:4
+#: src/index.md:4
 msgid "Angular Cookbook - How to do things with Angular"
 msgstr ""
 
-#: src/introduction/introduction.md:6
+#: src/index.md:6
 msgid "This is a book about doing things with Angular."
 msgstr ""
 
-#: src/introduction/introduction.md:8
+#: src/index.md:8
 msgid "It takes the form of \"How to\" articles."
 msgstr ""
 
-#: src/introduction/introduction.md:10
+#: src/index.md:10
 msgid "Everyone can participate !"
 msgstr ""
 
-#: src/introduction/introduction.md:12
+#: src/index.md:12
 msgid "Source code is store on [Github]()"
 msgstr ""
 
-#: src/introduction/introduction.md:14
+#: src/index.md:14
 msgid ""
-"Build with ❤ by [Pierre Nédélec](https://www.linkedin.com/in/pierrenedelec-"
+"Build with  by [Pierre Ndlec](https://www.linkedin.com/in/pierrenedelec-"
 "expert) "
 msgstr ""
 
 #: src/lazy-loading/lazy_loading.md:3
-#, fuzzy
 msgid "![Lazy Loading ](../images/lazy-loading.png)"
 msgstr ""
 
@@ -202,9 +188,9 @@ msgid ""
 "\n"
 "@Component({\n"
 "  selector: 'my-app',\n"
-"  template: `<p>🧙🧙name🧙🧙</p>`,\n"
+"  template: `<p>name</p>`,\n"
 "  styleUrls: ['./app.component.css'],\n"
-"  interpolation: ['🧙🧙', '🧙🧙'],\n"
+"  interpolation: ['', ''],\n"
 "})\n"
 "export class AppComponent {\n"
 "  name = 'Angular';\n"
@@ -224,7 +210,7 @@ msgstr ""
 #: src/interpolation/how-to-customize-interpolation.md:21
 msgid ""
 "```admonish tldr\n"
-"😆 Have fun with emoji customization [link](https://unicode.org/emoji/charts/"
+" Have fun with emoji customization [link](https://unicode.org/emoji/charts/"
 "full-emoji-list.html)\n"
 "```"
 msgstr ""
@@ -657,9 +643,5 @@ msgid "![Awesome Angular](./awesome-angular.png)"
 msgstr ""
 
 #: src/contributors.md:3
-msgid "[Pierre Nédélec](https://www.linkedin.com/in/pierrenedelec-angular/) "
+msgid "[Pierre Ndlec](https://www.linkedin.com/in/pierrenedelec-angular/) "
 msgstr ""
-
-#, fuzzy
-#~ msgid "How to use ng-container ?"
-#~ msgstr "# Comment créer un commentaire ?"

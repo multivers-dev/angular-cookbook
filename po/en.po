@@ -1,155 +1,132 @@
-msgid ""
-msgstr ""
-"Project-Id-Version: Angular-CookBook\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-07-28 04:12+0200\n"
-"Last-Translator: U-coder\\pierre <contact@multivers.dev>\n"
-"Language-Team: English\n"
-"Language: en\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
 #: src/SUMMARY.md:3
 msgid "Introduction"
-msgstr "Introduction"
+msgstr ""
 
-#: src/SUMMARY.md:4 src/lazy-loading/lazy_loading.md:1
+#: src/SUMMARY.md:5
+msgid "Articles"
+msgstr ""
+
+#: src/SUMMARY.md:6 src/lazy-loading/lazy_loading.md:1
 msgid "Lazy Loading"
-msgstr "Chargement différé"
+msgstr ""
 
-#: src/SUMMARY.md:5 src/lazy-loading/lazy_loading_module.md:1
+#: src/SUMMARY.md:7 src/lazy-loading/lazy_loading_module.md:1
 msgid "How to Lazy load Module ?"
-msgstr "Comment charger un module de manière différée ?"
+msgstr ""
 
-#: src/SUMMARY.md:6 src/lazy-loading/lazy_loading_standalone_component.md:1
+#: src/SUMMARY.md:8 src/lazy-loading/lazy_loading_standalone_component.md:1
 msgid "How to Lazy load Standalone Components"
-msgstr "Comment charger un composant de manière différée ?"
+msgstr ""
 
-#: src/SUMMARY.md:7 src/lazy-loading/lazy_loading_service.md:1
+#: src/SUMMARY.md:9 src/lazy-loading/lazy_loading_service.md:1
 msgid "How to Lazy load Service"
-msgstr "Comment charger un service de manière différée ?"
+msgstr ""
 
-#: src/SUMMARY.md:8
+#: src/SUMMARY.md:10
 msgid "Preloading Strategy "
-msgstr "Stratégie de préchargement"
+msgstr ""
 
-#: src/SUMMARY.md:9 src/interpolation/index.md:1
+#: src/SUMMARY.md:11 src/interpolation/index.md:1
 msgid "Interpolation"
-msgstr "Interpolation"
+msgstr ""
 
-#: src/SUMMARY.md:10 src/interpolation/how-to-bind.md:1
+#: src/SUMMARY.md:12 src/interpolation/how-to-bind.md:1
 msgid "How to bind  ?"
-msgstr "Comment lier ?"
+msgstr ""
 
-#: src/SUMMARY.md:11
+#: src/SUMMARY.md:13
 msgid "How to customize Component Interpolation"
-msgstr "Comment personnaliser l'interpolation d'un composant ?"
+msgstr ""
 
-#: src/SUMMARY.md:12
+#: src/SUMMARY.md:14
 msgid "Renderer"
-msgstr "Renderer"
+msgstr ""
 
-#: src/SUMMARY.md:14 src/renderer/how-to-create_comment.md:1
+#: src/SUMMARY.md:16 src/renderer/how-to-create_comment.md:1
 msgid "How to create comment ?"
-msgstr "Comment créer un commentaire ?"
+msgstr ""
 
-#: src/SUMMARY.md:15 src/ng-template/index.md:1
-#, fuzzy
+#: src/SUMMARY.md:17 src/ng-template/index.md:1
 msgid "How to use ng-template ?"
-msgstr "Comment utiliser ng-template avec ngIf ?"
+msgstr ""
 
-#: src/SUMMARY.md:16
-#, fuzzy
+#: src/SUMMARY.md:18
 msgid "How to use ng-template with-ngIf ?"
-msgstr "Comment utiliser ng-template avec ngIf ?"
+msgstr ""
 
-#: src/SUMMARY.md:17 src/ng-template/ng-template-outlet.md:1
-#, fuzzy
+#: src/SUMMARY.md:19 src/ng-template/ng-template-outlet.md:1
 msgid "How to use ngTemplateOutlet ?"
-msgstr "Commant utiliser ngTemplateOutlet ?"
+msgstr ""
 
-#: src/SUMMARY.md:18 src/ng-template/ng-template-outlet-with-context.md:1
-#, fuzzy
+#: src/SUMMARY.md:20 src/ng-template/ng-template-outlet-with-context.md:1
 msgid "How to use ngTemplateOutlet with context ?"
-msgstr "Comment utiliser ngTemplateOutlet avec context ?"
+msgstr ""
 
-#: src/SUMMARY.md:19
+#: src/SUMMARY.md:21
 msgid ""
 "How to use ng-template with ViewChild/ViewChildren and ContentChild/"
 "ContentChildren ?"
 msgstr ""
-"Comment utiliser ng-template avec ViewChild/ViewChildren et ContentChild/"
-"ContentChildren ?"
 
-#: src/SUMMARY.md:20 src/awesome-angular/awesome_angular.md:1
+#: src/SUMMARY.md:22 src/awesome-angular/awesome_angular.md:1
 msgid "Awesome Angular"
 msgstr ""
 
-#: src/SUMMARY.md:21 src/contributors.md:1
+#: src/SUMMARY.md:26 src/contributors.md:1
 msgid "Contributors"
-msgstr "Contributeurs"
+msgstr ""
 
-#: src/introduction/introduction.md:1
-#, fuzzy
+#: src/index.md:1
 msgid "Angular CookBook"
-msgstr "Angular CookBook "
+msgstr ""
 
-#: src/introduction/introduction.md:2
-#, fuzzy
-msgid "![Angular CookBook ](./book-cover.png)"
-msgstr "Angular CookBook "
+#: src/index.md:2
+msgid "![Angular CookBook ](./introduction/book-cover.png)"
+msgstr ""
 
-#: src/introduction/introduction.md:4
-#, fuzzy
+#: src/index.md:4
 msgid "Angular Cookbook - How to do things with Angular"
-msgstr "## Angular Cookbook - How to do things with Angular \r"
+msgstr ""
 
-#: src/introduction/introduction.md:6
+#: src/index.md:6
 msgid "This is a book about doing things with Angular."
-msgstr "This is a book about doing things with Angular."
+msgstr ""
 
-#: src/introduction/introduction.md:8
+#: src/index.md:8
 msgid "It takes the form of \"How to\" articles."
-msgstr "It takes the form of \"How to\" articles."
+msgstr ""
 
-#: src/introduction/introduction.md:10
+#: src/index.md:10
 msgid "Everyone can participate !"
-msgstr "Everyone can participate !"
+msgstr ""
 
-#: src/introduction/introduction.md:12
+#: src/index.md:12
 msgid "Source code is store on [Github]()"
-msgstr "Source code is store on [Github]()"
+msgstr ""
 
-#: src/introduction/introduction.md:14
+#: src/index.md:14
 msgid ""
-"Build with ❤ by [Pierre Nédélec](https://www.linkedin.com/in/pierrenedelec-"
+"Build with  by [Pierre Ndlec](https://www.linkedin.com/in/pierrenedelec-"
 "expert) "
 msgstr ""
-"Build with ❤ by [Pierre Nédélec](https://www.linkedin.com/in/pierrenedelec-"
-"expert) "
 
 #: src/lazy-loading/lazy_loading.md:3
-#, fuzzy
 msgid "![Lazy Loading ](../images/lazy-loading.png)"
-msgstr "[Lazy Loading Module](./lazy_loading_module.md)"
+msgstr ""
 
 #: src/lazy-loading/lazy_loading.md:6
 msgid "[Lazy Loading Module](./lazy_loading_module.md)"
-msgstr "[Lazy Loading Module](./lazy_loading_module.md)"
+msgstr ""
 
 #: src/lazy-loading/lazy_loading.md:8
 msgid ""
 "[Lazy Loading Standalone Components ( NG 14+) ](./"
 "lazy_loading_standalone_component.md)"
 msgstr ""
-"[Lazy Loading Standalone Components ( NG 14+) ](./"
-"lazy_loading_standalone_component.md)"
 
 #: src/lazy-loading/lazy_loading.md:10
 msgid "Read about [mdBook](mdBook.md)"
-msgstr "Read about [mdBook](mdBook.md)"
+msgstr ""
 
 #: src/lazy-loading/lazy_loading_module.md:4
 msgid ""
@@ -164,50 +141,34 @@ msgid ""
 "\n"
 "```"
 msgstr ""
-"```typescript\n"
-"RouterModule.forRoot([\n"
-"    {\n"
-"        path: 'lazy-loading-path',\n"
-"        loadChildren: () => import('./lazy-loading.module.ts')\n"
-"        .then((m) => m.LazyLoadingModule)\n"
-"    }\n"
-"])\n"
-"\n"
-"```"
 
 #: src/lazy-loading/lazy_loading_module.md:14
-#, fuzzy
 msgid "Why/When to Lazy load Module ?"
-msgstr "# Why/When to Lazy load Module ?"
+msgstr ""
 
 #: src/lazy-loading/lazy_loading_module.md:16
 msgid ""
 "You Application might contains differents features which are related to "
 "specific part of your application. "
 msgstr ""
-"You Application might contains differents features which are related to "
-"specific part of your application. "
 
 #: src/lazy-loading/lazy_loading_module.md:19
 msgid ""
 "Lazy loading module help you to add features to your application without "
 "having to increase runtime performance."
 msgstr ""
-"Lazy loading module help you to add features to your application without "
-"having to increase runtime performance."
 
 #: src/lazy-loading/lazy_loading_module.md:21
 msgid "Related Topics :"
-msgstr "Related Topics :"
+msgstr ""
 
 #: src/lazy-loading/lazy_loading_module.md:24
 msgid "[Preloading Strategy ](./preloading_strategy.md)"
-msgstr "[Preloading Strategy ](./preloading_strategy.md)"
+msgstr ""
 
 #: src/lazy-loading/preloading_strategy.md:1
-#, fuzzy
 msgid "Preloading Strategy"
-msgstr "Preloading Strategy "
+msgstr ""
 
 #: src/interpolation/how-to-bind.md:3
 msgid ""
@@ -217,9 +178,8 @@ msgid ""
 msgstr ""
 
 #: src/interpolation/how-to-customize-interpolation.md:1
-#, fuzzy
 msgid "How to customize Component Interpolation ?"
-msgstr "# How to customize Component Interpolation ?"
+msgstr ""
 
 #: src/interpolation/how-to-customize-interpolation.md:3
 msgid ""
@@ -228,9 +188,9 @@ msgid ""
 "\n"
 "@Component({\n"
 "  selector: 'my-app',\n"
-"  template: `<p>🧙🧙name🧙🧙</p>`,\n"
+"  template: `<p>name</p>`,\n"
 "  styleUrls: ['./app.component.css'],\n"
-"  interpolation: ['🧙🧙', '🧙🧙'],\n"
+"  interpolation: ['', ''],\n"
 "})\n"
 "export class AppComponent {\n"
 "  name = 'Angular';\n"
@@ -238,20 +198,6 @@ msgid ""
 "\n"
 "```"
 msgstr ""
-"```typescript\n"
-"import { Component } from '@angular/core';\n"
-"\n"
-"@Component({\n"
-"  selector: 'my-app',\n"
-"  template: `<p>🧙🧙name🧙🧙</p>`,\n"
-"  styleUrls: ['./app.component.css'],\n"
-"  interpolation: ['🧙🧙', '🧙🧙'],\n"
-"})\n"
-"export class AppComponent {\n"
-"  name = 'Angular';\n"
-"}\n"
-"\n"
-"```"
 
 #: src/interpolation/how-to-customize-interpolation.md:17
 msgid ""
@@ -260,22 +206,14 @@ msgid ""
 "property to your component without customize interpolation\n"
 "```"
 msgstr ""
-"```admonish note\n"
-"If you need to display \"{{\" \"}}\" characters in template you can attach a "
-"property to your component without customize interpolation\n"
-"```"
 
 #: src/interpolation/how-to-customize-interpolation.md:21
 msgid ""
 "```admonish tldr\n"
-"😆 Have fun with emoji customization [link](https://unicode.org/emoji/charts/"
+" Have fun with emoji customization [link](https://unicode.org/emoji/charts/"
 "full-emoji-list.html)\n"
 "```"
 msgstr ""
-"```admonish tldr\n"
-"😆 Have fun with emoji customization [link](https://unicode.org/emoji/charts/"
-"full-emoji-list.html)\n"
-"```"
 
 #: src/interpolation/how-to-customize-interpolation.md:28
 #: src/renderer/how-to-create_comment.md:27
@@ -296,13 +234,10 @@ msgid "]()"
 msgstr ""
 
 #: src/renderer/index.md:1
-#, fuzzy
 msgid ""
 "Renderer2 ![](https://img.shields.io/static/v1?"
 "label=&message=CLASS&color=blue)"
 msgstr ""
-"# Renderer2 ![](https://img.shields.io/static/v1?"
-"label=&message=CLASS&color=blue)"
 
 #: src/renderer/how-to-create_comment.md:4
 msgid ""
@@ -325,24 +260,6 @@ msgid ""
 "\n"
 "```"
 msgstr ""
-"```typescript\n"
-"import { Component, ElementRef, Renderer2, VERSION } from '@angular/core';\n"
-"\n"
-"@Component({\n"
-"  selector: 'my-app',\n"
-"  templateUrl: './app.component.html',\n"
-"  styleUrls: ['./app.component.css'],\n"
-"})\n"
-"export class AppComponent {\n"
-"  name = 'Angular ' + VERSION.major;\n"
-"  constructor(private renderer: Renderer2, private elRef: ElementRef) {\n"
-"    const comment = this.renderer.createComment('My Comment');\n"
-"    this.renderer.appendChild(elRef.nativeElement, comment);\n"
-"  }\n"
-"}\n"
-"\n"
-"\n"
-"```"
 
 #: src/renderer/how-to-create_comment.md:23
 msgid ""
@@ -351,10 +268,6 @@ msgid ""
 "when we use *ngIf or *ngFor \n"
 "```"
 msgstr ""
-"```admonish tldr\n"
-"It's use by Angular internal rendering proccess that's why comment appear "
-"when we use *ngIf or *ngFor \n"
-"```"
 
 #: src/ng-template/index.md:2
 msgid "Definitions"
@@ -579,7 +492,6 @@ msgid "`ViewChild` can be used to access the `HelloComponent` instance:"
 msgstr ""
 
 #: src/ng-template/ng-template-with-viewChild-contentChild.md:28
-#, fuzzy
 msgid ""
 "```typescript\n"
 "import { Component, ViewChild, AfterViewInit } from '@angular/core';\n"
@@ -600,24 +512,6 @@ msgid ""
 "}\n"
 "```"
 msgstr ""
-"```typescript\n"
-"import { Component, ElementRef, Renderer2, VERSION } from '@angular/core';\n"
-"\n"
-"@Component({\n"
-"  selector: 'my-app',\n"
-"  templateUrl: './app.component.html',\n"
-"  styleUrls: ['./app.component.css'],\n"
-"})\n"
-"export class AppComponent {\n"
-"  name = 'Angular ' + VERSION.major;\n"
-"  constructor(private renderer: Renderer2, private elRef: ElementRef) {\n"
-"    const comment = this.renderer.createComment('My Comment');\n"
-"    this.renderer.appendChild(elRef.nativeElement, comment);\n"
-"  }\n"
-"}\n"
-"\n"
-"\n"
-"```"
 
 #: src/ng-template/ng-template-with-viewChild-contentChild.md:47
 msgid ""
@@ -749,191 +643,5 @@ msgid "![Awesome Angular](./awesome-angular.png)"
 msgstr ""
 
 #: src/contributors.md:3
-#, fuzzy
-msgid "[Pierre Nédélec](https://www.linkedin.com/in/pierrenedelec-angular/) "
-msgstr "[Pierre Nédélec](https://www.linkedin.com/in/pierrenedelec-expert) "
-
-#~ msgid "Chapter 1"
-#~ msgstr "Chapter 1"
-
-#~ msgid "Dynamic Load"
-#~ msgstr "Dynamic Load"
-
-#~ msgid "Content Projection"
-#~ msgstr "Content Projection"
-
-#~ msgid "How to use content projection ?"
-#~ msgstr "How to use content projection ?"
-
-#~ msgid "RendererFactory2"
-#~ msgstr "RendererFactory2"
-
-#~ msgid "createRenderer"
-#~ msgstr "createRenderer"
-
-#~ msgid "begin"
-#~ msgstr "begin"
-
-#~ msgid "end"
-#~ msgstr "end"
-
-#~ msgid "whenRenderingDone"
-#~ msgstr "whenRenderingDone"
-
-#~ msgid ""
-#~ "```typescript\n"
-#~ "interface Row<T extends object> {\n"
-#~ "  $implicit: T\n"
-#~ "}\n"
-#~ "\n"
-#~ "@Directive({\n"
-#~ "  selector: 'ng-template[appTableRow]'\n"
-#~ "})\n"
-#~ "export class TableRowDirective<T extends object> {\n"
-#~ "  @Input() appTableRow!: T[];\n"
-#~ "\n"
-#~ "  constructor() { }\n"
-#~ "\n"
-#~ "  static ngTemplateContextGuard<TContext extends object>(\n"
-#~ "    directive: TableRowDirective<TContext>,\n"
-#~ "    context: unknown\n"
-#~ "  ): context is Row<TContext> {\n"
-#~ "    return true;\n"
-#~ "  }\n"
-#~ "\n"
-#~ "}\n"
-#~ "\n"
-#~ "```"
-#~ msgstr ""
-#~ "```typescript\n"
-#~ "interface Row<T extends object> {\n"
-#~ "  $implicit: T\n"
-#~ "}\n"
-#~ "\n"
-#~ "@Directive({\n"
-#~ "  selector: 'ng-template[appTableRow]'\n"
-#~ "})\n"
-#~ "export class TableRowDirective<T extends object> {\n"
-#~ "  @Input() appTableRow!: T[];\n"
-#~ "\n"
-#~ "  constructor() { }\n"
-#~ "\n"
-#~ "  static ngTemplateContextGuard<TContext extends object>(\n"
-#~ "    directive: TableRowDirective<TContext>,\n"
-#~ "    context: unknown\n"
-#~ "  ): context is Row<TContext> {\n"
-#~ "    return true;\n"
-#~ "  }\n"
-#~ "\n"
-#~ "}\n"
-#~ "\n"
-#~ "```"
-
-#, fuzzy
-#~ msgid ""
-#~ "RendererFactory2 ![](https://img.shields.io/static/v1?"
-#~ "label=&message=CLASS&color=blue)"
-#~ msgstr ""
-#~ "# RendererFactory2 ![](https://img.shields.io/static/v1?"
-#~ "label=&message=CLASS&color=blue)"
-
-#~ msgid ""
-#~ "Creates and initializes a custom renderer that implements the Renderer2 "
-#~ "base class."
-#~ msgstr ""
-#~ "Creates and initializes a custom renderer that implements the Renderer2 "
-#~ "base class."
-
-#~ msgid "# Angular CookBook \r"
-#~ msgstr "# Angular CookBook \r"
-
-#~ msgid "# Chapter 1"
-#~ msgstr "# Chapter 1"
-
-#~ msgid "# Lazy Loading"
-#~ msgstr "# Lazy Loading"
-
-#~ msgid "Lazy Loading "
-#~ msgstr "Lazy Loading "
-
-#~ msgid "# How to Lazy load Module ?"
-#~ msgstr "# How to Lazy load Module ?"
-
-#~ msgid "# How to Lazy load Standalone Components"
-#~ msgstr "# How to Lazy load Standalone Components"
-
-#~ msgid "# How to Lazy load Service"
-#~ msgstr "# How to Lazy load Service"
-
-#~ msgid "# Preloading Strategy "
-#~ msgstr "# Preloading Strategy "
-
-#~ msgid "# Dynamic Load"
-#~ msgstr "# Dynamic Load"
-
-#~ msgid "# Content Projection"
-#~ msgstr "# Content Projection"
-
-#~ msgid "# Interpolation"
-#~ msgstr "# Interpolation"
-
-#~ msgid ""
-#~ "<!-- [<a href=\"https://stackblitz.com/edit/angular-joke-"
-#~ "interpolation-3sz7j9\" target=\"_blank\"><img width=\"60px\" "
-#~ "alt=\"stackblitz\" src=\"images/stackblitz.webp\"></a>]() -->"
-#~ msgstr ""
-#~ "<!-- [<a href=\"https://stackblitz.com/edit/angular-joke-"
-#~ "interpolation-3sz7j9\" target=\"_blank\"><img width=\"60px\" "
-#~ "alt=\"stackblitz\" src=\"images/stackblitz.webp\"></a>]() -->"
-
-#~ msgid ""
-#~ "[<iframe width=\"100%\" height=\"600px\" src=\"https://stackblitz.com/"
-#~ "edit/angular-joke-interpolation-3sz7j9?embed=1&file=src/app/app.component."
-#~ "ts\"></iframe>]()"
-#~ msgstr ""
-#~ "[<iframe width=\"100%\" height=\"600px\" src=\"https://stackblitz.com/"
-#~ "edit/angular-joke-interpolation-3sz7j9?embed=1&file=src/app/app.component."
-#~ "ts\"></iframe>]()"
-
-#~ msgid "# How to create comment ?"
-#~ msgstr "# How to create comment ?"
-
-#~ msgid ""
-#~ "[<iframe width=\"100%\" height=\"600px\" src=\"https://stackblitz.com/"
-#~ "edit/angular-cookbook-comment?file=src/app/app.component.ts\"></iframe>]()"
-#~ msgstr ""
-#~ "[<iframe width=\"100%\" height=\"600px\" src=\"https://stackblitz.com/"
-#~ "edit/angular-cookbook-comment?file=src/app/app.component.ts\"></iframe>]()"
-
-#~ msgid ""
-#~ "- [createRenderer](./createRenderer.md)\n"
-#~ "- [begin](./begin.md)\n"
-#~ "- [end](./end.md)\n"
-#~ "- [whenRenderingDone](./whenRenderingDone.md)"
-#~ msgstr ""
-#~ "- [createRenderer](./createRenderer.md)\n"
-#~ "- [begin](./begin.md)\n"
-#~ "- [end](./end.md)\n"
-#~ "- [whenRenderingDone](./whenRenderingDone.md)"
-
-#~ msgid "# createRenderer"
-#~ msgstr "# createRenderer"
-
-#~ msgid "# begin"
-#~ msgstr "# begin"
-
-#~ msgid "# end"
-#~ msgstr "# end"
-
-#~ msgid "# whenRenderingDone"
-#~ msgstr "# whenRenderingDone"
-
-#~ msgid "# Contributors"
-#~ msgstr "# Contributors"
-
-#~ msgid ""
-#~ "<!-- ![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?"
-#~ "style=for-the-badge&logo=linkedin&logoColor=white) -->"
-#~ msgstr ""
-#~ "<!-- ![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?"
-#~ "style=for-the-badge&logo=linkedin&logoColor=white) -->"
+msgid "[Pierre Ndlec](https://www.linkedin.com/in/pierrenedelec-angular/) "
+msgstr ""
