@@ -1,7 +1,8 @@
 [book]
 authors = ["Pierre Nédélec"]
 description = "Angular-CookBook"
-language = "en"
+language = "fr"
+languages = ["en", "fr"]
 multilingual = true
 src = "src"
 title = "Angular-CookBook"
