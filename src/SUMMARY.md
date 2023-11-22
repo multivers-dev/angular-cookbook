@@ -1,6 +1,8 @@
 # Summary
 
-- [Introduction](./introduction/introduction.md)
+[Introduction](README.md)
+
+# Articles
 - [Lazy Loading](./lazy-loading/lazy_loading.md)
     - [How to Lazy load Module ?](./lazy-loading/lazy_loading_module.md)
     - [How to Lazy load Standalone Components](./lazy-loading/lazy_loading_standalone_component.md)
@@ -18,4 +20,7 @@
     - [How to use ngTemplateOutlet with context ?](ng-template/ng-template-outlet-with-context.md)
     - [How to use ng-template with ViewChild/ViewChildren and ContentChild/ContentChildren ?](ng-template/ng-template-with-viewChild-contentChild.md)
 - [Awesome Angular](./awesome-angular/awesome_angular.md)
-- [Contributors](./contributors.md)
+
+-----------
+
+[Contributors](./contributors.md)
