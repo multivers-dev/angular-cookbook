@@ -1,6 +1,6 @@
 # Lazy Loading
 
-![Lazy Loading ](images/lazy-loading.png)
+![Lazy Loading ](../images/lazy-loading.png)
 
 
 [Lazy Loading Module](./lazy_loading_module.md)
