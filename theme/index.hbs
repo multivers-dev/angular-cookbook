@@ -174,30 +174,15 @@
 
                           // The path to the root, taking the current
                
-                          <!--let full_path_to_root = "{{ path_to_root }}";-->
-
-                          // The path to the root, taking the current
-                          // language into account.
-                          {{#if (eq language "en")}}
                           let full_path_to_root = "{{ path_to_root }}";
-                          {{else}}
-                          let full_path_to_root = "{{ path_to_root }}../";
-                          {{/if}}
                           
                           // The page path (mdbook only gives us
                           // access to the path to the Markdown file).
                           let path = "{{ path }}".replace(/\.md$/, ".html");
            
                           for (let lang of langList.querySelectorAll("a")) {
-                            console.log("link", lang.id, lang.href)
-//                             lang.href = `${full_path_to_root}${lang.id}/${path}`;
-                            console.log("new href", lang.href)
+                            lang.href = `${full_path_to_root}${lang.id}/${path}`;
 
-                             if (lang.id == "en") {
-                                  lang.href = `${full_path_to_root}${path}`;
-                              } else {
-                                  lang.href = `${full_path_to_root}${lang.id}/${path}`;
-                              }
                             
                           }
                         </script>
