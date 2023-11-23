@@ -34,7 +34,7 @@ Before we dive into the technical details, let's take a quick look at the projec
 ```
 
 ### Before We Begin
-To follow along, clone the project from [GitHub]() and set it up effortlessly. Run `npm install` and switch to the `composent-with-selectors` branch using `git checkout composent-with-selectors`.
+To follow along, clone the project from [GitHub](https://github.com/jdansomon/angular-Components-Without-Selectors.git) and set it up effortlessly. Run `npm install` and switch to the `composent-with-selectors` branch using `git checkout composent-with-selectors`.
 
 ### Components with Selectors
 Now that we're familiar with the project structure, let's explore components with selectors, dissecting their impact on Webpack build size.
