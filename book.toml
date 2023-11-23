@@ -1,9 +1,8 @@
 [book]
 authors = ["Pierre Nédélec"]
 description = "Angular-CookBook"
-language = "fr"
-languages = ["en", "fr"]
-multilingual = true
+language = "en"
+multilingual = false
 src = "src"
 title = "Angular-CookBook"
 
@@ -29,4 +28,9 @@ assets_version = "2.0.0" # do not edit: managed by `mdbook-admonish install`
 
 [preprocessor.gettext]
 after = ["links"]
+
+[preprocessor.svgbob]
+renderers = ["html"]
+after = ["gettext"]
+class = "bob"
 
