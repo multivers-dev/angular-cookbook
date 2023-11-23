@@ -19,7 +19,9 @@
     - [How to use ngTemplateOutlet ?](ng-template/ng-template-outlet.md)
     - [How to use ngTemplateOutlet with context ?](ng-template/ng-template-outlet-with-context.md)
     - [How to use ng-template with ViewChild/ViewChildren and ContentChild/ContentChildren ?](ng-template/ng-template-with-viewChild-contentChild.md)
-- [Awesome Angular](./awesome-angular/awesome_angular.md)
+- [Component without selectors](composent-without-selectors/README.md)
+    - [How to create component without selectors ?](composent-without-selectors/how-to-create-component-without-selectors.md)
+- [Awesome Angular](./awesome-angular/awesome_angular.md)s
 
 -----------
 
