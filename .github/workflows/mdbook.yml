@@ -53,9 +53,13 @@ jobs:
         run: |
           cargo install --force --version ${MDBOOK_VERSION} mdbook
           cargo install --force --path .
+      - name: Install mdbook
+        uses: ./.github/workflows/install-mdbook
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
+      - name: Build course in French
+        run: mdbook build -d book
       - name: Build with mdBook
         run: |
           for lang in ${{ env.LANGUAGES }}; do
