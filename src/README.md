@@ -1,5 +1,5 @@
 # Angular CookBook 
-![Angular CookBook ](./book-cover.png)
+![Angular CookBook ](./introduction/book-cover.png)
 
 ## Angular Cookbook - How to do things with Angular 
 

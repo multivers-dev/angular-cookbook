@@ -1,27 +1,20 @@
-book
+# Build artifacts
+/book/
+target/
+*.bin
 
+# Translation artifacts
+po/messages.pot
+po/*.mo
+po/*.po~
 
-# Added by cargo
+# macOS artifacts
+.DS_Store
 
-/target
-
-
-# Added by cargo
-#
-# already existing elements were commented out
-
-#/target
-.idea
-.vscode
-
-
-# Added by cargo
-#
-# already existing elements were commented out
-
-#/target
-
-/po/messages.pot
+# Jetbrains IDEs project files
+.idea/
+.iml
+.iws
 
 # Node
 node_modules

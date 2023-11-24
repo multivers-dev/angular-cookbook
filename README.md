@@ -120,13 +120,13 @@ cargo install mdbook-i18n-helpers
 >* Run `serve` in fr 
 >
 > ```sh
->MDBOOK_BOOK__LANGUAGE=fr mdbook serve -d book/fr
+>MDBOOK_BOOK__LANGUAGE=fr mdbook serve -d book/fr -p 3000
 >```
 >
 >* Run `serve` in en 
 >
 >```sh
->MDBOOK_BOOK__LANGUAGE=fr mdbook serve -d book/fr
+>MDBOOK_BOOK__LANGUAGE=fr mdbook serve -d book/en -p 3001
 >```
 
 # [How to Contribute ?](./CONTRIBUTING.md)
