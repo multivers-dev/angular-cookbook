@@ -184,8 +184,14 @@
 
                           for (let lang of langList.querySelectorAll("a")) {
                               let href = `${full_path_to_root}${lang.id}/${path}`;
+                              console.log("langToggle", langToggle)
+                              console.log("langToggle", langToggle.lang)
+                              console.log("href", href)
+                              console.log("urlLang", urlLang)
+                              console.log("lang.id", lang.id)
+
                               //remplce urlLang the old land by ""
-                                href = href.replace(urlLang, "")
+                                href = href.replace(langToggle.lang, "")
                               console.log("href test", href)
 
                             lang.href = `${full_path_to_root}${lang.id}/${path}`;
