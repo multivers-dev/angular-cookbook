@@ -161,11 +161,12 @@
                           langToggle.addEventListener("click", (event) => {
                               langList.style.display = langList.style.display == "block" ? "none" : "block";
                           });
-                          // local http://localhost:3300/fr/
+                            // prod https://multivers-dev.github.io/angular-cookbook/fr/
                           let urlLang = window.location.href.split('/')[3]
                           if (urlLang !== 'en' || urlLang !=='fr'){
                             // prod https://multivers-dev.github.io/angular-cookbook/fr/
                             urlLang = window.location.href.split('/')[4]
+
                           }
                           let selectedLang = document.getElementById(urlLang);
 
@@ -180,7 +181,13 @@
                           // access to the path to the Markdown file).
                           let path = "{{ path }}".replace(/\.md$/, ".html");
 
+
                           for (let lang of langList.querySelectorAll("a")) {
+                              let href = `${full_path_to_root}${lang.id}/${path}`;
+                              //remplce urlLang the old land by ""
+                                href = href.replace(urlLang, "")
+                              console.log("href test", href)
+
                             lang.href = `${full_path_to_root}${lang.id}/${path}`;
 
 
