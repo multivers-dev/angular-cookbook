@@ -1,8 +1,8 @@
 [book]
 authors = ["Pierre Nédélec"]
 description = "Angular-CookBook"
-language = "en"
-multilingual = false
+language = "fr"
+multilingual = true
 src = "src"
 title = "Angular-CookBook"
 
@@ -20,14 +20,15 @@ git-repository-url = "https://github.com/multivers-dev/angular-cookbook"
 git-repository-icon = "fa-github"
 edit-url-template = "https://github.com/multivers-dev/angular-cookbook/blob/main/{path}"
 
-[preprocessor]
-
 [preprocessor.admonish]
 command = "mdbook-admonish"
-assets_version = "2.0.0" # do not edit: managed by `mdbook-admonish install`
+assets_version = "3.0.1" # do not edit: managed by `mdbook-admonish install`
 
 [preprocessor.gettext]
+command = "mdbook-gettext"
 after = ["links"]
 
-
-
+[preprocessor.svgbob]
+renderers = ["html"]
+after = ["gettext"]
+class = "bob"
