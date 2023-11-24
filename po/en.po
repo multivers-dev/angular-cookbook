@@ -1,203 +1,221 @@
-#: src/SUMMARY.md:3
-msgid "Introduction"
+msgid ""
 msgstr ""
+"Project-Id-Version: Angular-CookBook\n"
+"POT-Creation-Date: 2023-11-24T01:48:57Z\n"
+"PO-Revision-Date: 2023-11-24 09:50+0000\n"
+"Last-Translator: Esse Jacques  <essejacques@minawo-macbook-pro.local>\n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/SUMMARY.md:1
+msgid "Summary"
+msgstr "Summary"
+
+#: src/SUMMARY.md:3
+#: src/composent-without-selectors/how-to-create-component-without-selectors.md:5
+msgid "Introduction"
+msgstr "Introduction"
 
 #: src/SUMMARY.md:5
 msgid "Articles"
-msgstr ""
+msgstr "Articles"
 
 #: src/SUMMARY.md:6 src/lazy-loading/lazy_loading.md:1
 msgid "Lazy Loading"
-msgstr ""
+msgstr "Lazy Loading"
 
 #: src/SUMMARY.md:7 src/lazy-loading/lazy_loading_module.md:1
 msgid "How to Lazy load Module ?"
-msgstr ""
+msgstr "How to Lazy load Module ?"
 
 #: src/SUMMARY.md:8 src/lazy-loading/lazy_loading_standalone_component.md:1
 msgid "How to Lazy load Standalone Components"
-msgstr ""
+msgstr "How to Lazy load Standalone Components"
 
 #: src/SUMMARY.md:9 src/lazy-loading/lazy_loading_service.md:1
 msgid "How to Lazy load Service"
-msgstr ""
+msgstr "How to Lazy load Service"
 
 #: src/SUMMARY.md:10
 msgid "Preloading Strategy "
-msgstr ""
+msgstr "Preloading Strategy "
 
 #: src/SUMMARY.md:11 src/interpolation/index.md:1
 msgid "Interpolation"
-msgstr ""
+msgstr "Interpolation"
 
 #: src/SUMMARY.md:12 src/interpolation/how-to-bind.md:1
 msgid "How to bind  ?"
-msgstr ""
+msgstr "How to bind  ?"
 
 #: src/SUMMARY.md:13
 msgid "How to customize Component Interpolation"
-msgstr ""
+msgstr "How to customize Component Interpolation"
 
 #: src/SUMMARY.md:14
 msgid "Renderer"
-msgstr ""
+msgstr "Renderer"
 
 #: src/SUMMARY.md:16 src/renderer/how-to-create_comment.md:1
 msgid "How to create comment ?"
-msgstr ""
+msgstr "How to create comment ?"
 
 #: src/SUMMARY.md:17 src/ng-template/index.md:1
 msgid "How to use ng-template ?"
-msgstr ""
+msgstr "How to use ng-template ?"
 
 #: src/SUMMARY.md:18
 msgid "How to use ng-template with-ngIf ?"
-msgstr ""
+msgstr "How to use ng-template with-ngIf ?"
 
 #: src/SUMMARY.md:19 src/ng-template/ng-template-outlet.md:1
 msgid "How to use ngTemplateOutlet ?"
-msgstr ""
+msgstr "How to use ngTemplateOutlet ?"
 
 #: src/SUMMARY.md:20 src/ng-template/ng-template-outlet-with-context.md:1
 msgid "How to use ngTemplateOutlet with context ?"
-msgstr ""
+msgstr "How to use ngTemplateOutlet with context ?"
 
 #: src/SUMMARY.md:21
 msgid ""
 "How to use ng-template with ViewChild/ViewChildren and ContentChild/"
 "ContentChildren ?"
 msgstr ""
+"How to use ng-template with ViewChild/ViewChildren and ContentChild/"
+"ContentChildren ?"
 
-#: src/SUMMARY.md:22 src/awesome-angular/awesome_angular.md:1
+#: src/SUMMARY.md:22
+msgid "Component without selectors"
+msgstr "Component without selectors"
+
+#: src/SUMMARY.md:23
+msgid "How to create component without selectors ?"
+msgstr "How to create component without selectors ?"
+
+#: src/SUMMARY.md:24 src/package-manager/index.md:1
+msgid "Package manager"
+msgstr "Package manager"
+
+#: src/SUMMARY.md:25
+msgid "How to specify packageManager ?( global + local )"
+msgstr "How to specify packageManager ?( global + local )"
+
+#: src/SUMMARY.md:26
+#: src/package-manager/how-to-force-specific-usage-of-packageManager-and-node-version.md:1
+msgid ""
+"How to force specific usage of packageManager and Node version ( package."
+"json engines ) ?"
+msgstr ""
+"How to force specific usage of packageManager and Node version ( package."
+"json engines ) ?"
+
+#: src/SUMMARY.md:27 src/awesome-angular/awesome_angular.md:1
 msgid "Awesome Angular"
-msgstr ""
+msgstr "Awesome Angular"
 
-#: src/SUMMARY.md:26 src/contributors.md:1
+#: src/SUMMARY.md:31 src/contributors.md:1
 msgid "Contributors"
-msgstr ""
+msgstr "Contributors"
 
 #: src/index.md:1
 msgid "Angular CookBook"
-msgstr ""
+msgstr "Angular CookBook"
 
 #: src/index.md:2
 msgid "![Angular CookBook ](./introduction/book-cover.png)"
-msgstr ""
+msgstr "![Angular CookBook ](./introduction/book-cover.png)"
 
 #: src/index.md:4
 msgid "Angular Cookbook - How to do things with Angular"
-msgstr ""
+msgstr "Angular Cookbook - How to do things with Angular"
 
 #: src/index.md:6
 msgid "This is a book about doing things with Angular."
-msgstr ""
+msgstr "This is a book about doing things with Angular."
 
 #: src/index.md:8
 msgid "It takes the form of \"How to\" articles."
-msgstr ""
+msgstr "It takes the form of \"How to\" articles."
 
 #: src/index.md:10
 msgid "Everyone can participate !"
-msgstr ""
+msgstr "Everyone can participate !"
 
 #: src/index.md:12
 msgid "Source code is store on [Github]()"
-msgstr ""
+msgstr "Source code is store on [Github]()"
 
 #: src/index.md:14
 msgid ""
-"Build with  by [Pierre Ndlec](https://www.linkedin.com/in/pierrenedelec-"
+"Build with ❤ by [Pierre Nédélec](https://www.linkedin.com/in/pierrenedelec-"
 "expert) "
 msgstr ""
+"Build with ❤ by [Pierre Nédélec](https://www.linkedin.com/in/pierrenedelec-"
+"expert) "
 
 #: src/lazy-loading/lazy_loading.md:3
 msgid "![Lazy Loading ](../images/lazy-loading.png)"
-msgstr ""
+msgstr "![Lazy Loading ](../images/lazy-loading.png)"
 
 #: src/lazy-loading/lazy_loading.md:6
 msgid "[Lazy Loading Module](./lazy_loading_module.md)"
-msgstr ""
+msgstr "[Lazy Loading Module](./lazy_loading_module.md)"
 
 #: src/lazy-loading/lazy_loading.md:8
 msgid ""
 "[Lazy Loading Standalone Components ( NG 14+) ](./"
 "lazy_loading_standalone_component.md)"
 msgstr ""
+"[Lazy Loading Standalone Components ( NG 14+) ](./"
+"lazy_loading_standalone_component.md)"
 
 #: src/lazy-loading/lazy_loading.md:10
 msgid "Read about [mdBook](mdBook.md)"
-msgstr ""
-
-#: src/lazy-loading/lazy_loading_module.md:4
-msgid ""
-"```typescript\n"
-"RouterModule.forRoot([\n"
-"    {\n"
-"        path: 'lazy-loading-path',\n"
-"        loadChildren: () => import('./lazy-loading.module.ts')\n"
-"        .then((m) => m.LazyLoadingModule)\n"
-"    }\n"
-"])\n"
-"\n"
-"```"
-msgstr ""
+msgstr "Read about [mdBook](mdBook.md)"
 
 #: src/lazy-loading/lazy_loading_module.md:14
 msgid "Why/When to Lazy load Module ?"
-msgstr ""
+msgstr "Why/When to Lazy load Module ?"
 
 #: src/lazy-loading/lazy_loading_module.md:16
 msgid ""
 "You Application might contains differents features which are related to "
 "specific part of your application. "
 msgstr ""
+"You Application might contains differents features which are related to "
+"specific part of your application. "
 
 #: src/lazy-loading/lazy_loading_module.md:19
 msgid ""
 "Lazy loading module help you to add features to your application without "
 "having to increase runtime performance."
 msgstr ""
+"Lazy loading module help you to add features to your application without "
+"having to increase runtime performance."
 
 #: src/lazy-loading/lazy_loading_module.md:21
 msgid "Related Topics :"
-msgstr ""
+msgstr "Related Topics :"
 
 #: src/lazy-loading/lazy_loading_module.md:24
 msgid "[Preloading Strategy ](./preloading_strategy.md)"
-msgstr ""
+msgstr "[Preloading Strategy ](./preloading_strategy.md)"
 
 #: src/lazy-loading/preloading_strategy.md:1
 msgid "Preloading Strategy"
-msgstr ""
+msgstr "Preloading Strategy"
 
-#: src/interpolation/how-to-bind.md:3
-msgid ""
-"```html\n"
-"<div id={{myId}}></div > == <div [id]=\"myId\"></div >\n"
-"```"
-msgstr ""
+#: src/interpolation/how-to-bind.md:4
+msgid "{{myId}}"
+msgstr "{{myId}}"
 
 #: src/interpolation/how-to-customize-interpolation.md:1
 msgid "How to customize Component Interpolation ?"
-msgstr ""
-
-#: src/interpolation/how-to-customize-interpolation.md:3
-msgid ""
-"```typescript\n"
-"import { Component } from '@angular/core';\n"
-"\n"
-"@Component({\n"
-"  selector: 'my-app',\n"
-"  template: `<p>name</p>`,\n"
-"  styleUrls: ['./app.component.css'],\n"
-"  interpolation: ['', ''],\n"
-"})\n"
-"export class AppComponent {\n"
-"  name = 'Angular';\n"
-"}\n"
-"\n"
-"```"
-msgstr ""
+msgstr "How to customize Component Interpolation ?"
 
 #: src/interpolation/how-to-customize-interpolation.md:17
 msgid ""
@@ -206,14 +224,22 @@ msgid ""
 "property to your component without customize interpolation\n"
 "```"
 msgstr ""
+"```admonish note\n"
+"If you need to display \"{{\" \"}}\" characters in template you can attach a "
+"property to your component without customize interpolation\n"
+"```"
 
 #: src/interpolation/how-to-customize-interpolation.md:21
 msgid ""
 "```admonish tldr\n"
-" Have fun with emoji customization [link](https://unicode.org/emoji/charts/"
+"😆 Have fun with emoji customization [link](https://unicode.org/emoji/charts/"
 "full-emoji-list.html)\n"
 "```"
 msgstr ""
+"```admonish tldr\n"
+"😆 Have fun with emoji customization [link](https://unicode.org/emoji/charts/"
+"full-emoji-list.html)\n"
+"```"
 
 #: src/interpolation/how-to-customize-interpolation.md:28
 #: src/renderer/how-to-create_comment.md:27
@@ -222,7 +248,7 @@ msgstr ""
 #: src/ng-template/ng-template-outlet-with-context.md:21
 #: src/ng-template/ng-template-with-viewChild-contentChild.md:76
 msgid "["
-msgstr ""
+msgstr "["
 
 #: src/interpolation/how-to-customize-interpolation.md:28
 #: src/renderer/how-to-create_comment.md:27
@@ -231,65 +257,39 @@ msgstr ""
 #: src/ng-template/ng-template-outlet-with-context.md:21
 #: src/ng-template/ng-template-with-viewChild-contentChild.md:76
 msgid "]()"
-msgstr ""
+msgstr "]()"
 
 #: src/renderer/index.md:1
 msgid ""
 "Renderer2 ![](https://img.shields.io/static/v1?"
 "label=&message=CLASS&color=blue)"
 msgstr ""
-
-#: src/renderer/how-to-create_comment.md:4
-msgid ""
-"```typescript\n"
-"import { Component, ElementRef, Renderer2, VERSION } from '@angular/core';\n"
-"\n"
-"@Component({\n"
-"  selector: 'my-app',\n"
-"  templateUrl: './app.component.html',\n"
-"  styleUrls: ['./app.component.css'],\n"
-"})\n"
-"export class AppComponent {\n"
-"  name = 'Angular ' + VERSION.major;\n"
-"  constructor(private renderer: Renderer2, private elRef: ElementRef) {\n"
-"    const comment = this.renderer.createComment('My Comment');\n"
-"    this.renderer.appendChild(elRef.nativeElement, comment);\n"
-"  }\n"
-"}\n"
-"\n"
-"\n"
-"```"
-msgstr ""
-
-#: src/renderer/how-to-create_comment.md:23
-msgid ""
-"```admonish tldr\n"
-"It's use by Angular internal rendering proccess that's why comment appear "
-"when we use *ngIf or *ngFor \n"
-"```"
-msgstr ""
+"Renderer2 ![](https://img.shields.io/static/v1?"
+"label=&message=CLASS&color=blue)"
 
 #: src/ng-template/index.md:2
 msgid "Definitions"
-msgstr ""
+msgstr "Definitions"
 
 #: src/ng-template/index.md:3
 msgid "ng-template"
-msgstr ""
+msgstr "ng-template"
 
 #: src/ng-template/index.md:4
 msgid "The \\`"
-msgstr ""
+msgstr "The \\`"
 
 #: src/ng-template/index.md:4
 msgid ""
 " is an Angular element, which contains the template. A template is an HTML "
 "snippet. The template does not render itself on DOM."
 msgstr ""
+" is an Angular element, which contains the template. A template is an HTML "
+"snippet. The template does not render itself on DOM."
 
 #: src/ng-template/index.md:6
 msgid "ng-template-outlet"
-msgstr ""
+msgstr "ng-template-outlet"
 
 #: src/ng-template/index.md:7
 msgid ""
@@ -297,10 +297,13 @@ msgid ""
 "in your Angular components, which can be very useful for creating reusable "
 "and flexible UI components."
 msgstr ""
+"The `ngTemplateOutlet` directive allows you to dynamically render templates "
+"in your Angular components, which can be very useful for creating reusable "
+"and flexible UI components."
 
 #: src/ng-template/index.md:9
 msgid "ViewChild/ViewChildren and ContentChild/ContentChildren"
-msgstr ""
+msgstr "ViewChild/ViewChildren and ContentChild/ContentChildren"
 
 #: src/ng-template/index.md:10
 msgid ""
@@ -309,243 +312,82 @@ msgid ""
 "are used to access the DOM elements or directives from the content of a "
 "component."
 msgstr ""
+"`ViewChild` and `ViewChildren` are used to access the DOM elements or "
+"directives from a component template. `ContentChild` and `ContentChildren` "
+"are used to access the DOM elements or directives from the content of a "
+"component."
 
-#: src/ng-template/index.md:13
+#: src/ng-template/index.md:13 src/package-manager/index.md:8
 msgid "Table of contents"
-msgstr ""
+msgstr "Table of contents"
 
 #: src/ng-template/index.md:14
 msgid ""
 "[How to use ng-template with ngIf directive ? ](./ng-template-with-ngIf.md)"
 msgstr ""
+"[How to use ng-template with ngIf directive ? ](./ng-template-with-ngIf.md)"
 
 #: src/ng-template/index.md:15
 msgid "[How to use ngTemplateOutlet ?](./ng-template-outlet.md)"
-msgstr ""
+msgstr "[How to use ngTemplateOutlet ?](./ng-template-outlet.md)"
 
 #: src/ng-template/index.md:16
 msgid ""
 "[How to use ngTemplateOutlet with context ?](./ng-template-outlet-with-"
 "context.md)"
 msgstr ""
+"[How to use ngTemplateOutlet with context ?](./ng-template-outlet-with-"
+"context.md)"
 
 #: src/ng-template/index.md:17
 msgid ""
 "[How to use ng-template with ViewChild/ViewChildren and ContentChild/"
 "ContentChildren ?](./ng-template-with-viewChild-contentChild.md)"
 msgstr ""
+"[How to use ng-template with ViewChild/ViewChildren and ContentChild/"
+"ContentChildren ?](./ng-template-with-viewChild-contentChild.md)"
 
 #: src/ng-template/ng-template-with-ngIf.md:1
 msgid "The ng-template with ngIf directive"
-msgstr ""
-
-#: src/ng-template/ng-template-with-ngIf.md:3
-msgid ""
-"```admonish note\n"
-"`<ng-template>` in Angular is a angular `element` used to define and render "
-"content dynamically within components. It's a versatile tool for creating "
-"reusable templates, handling rendering logic, and improving code "
-"organization by separating content from its presentation, commonly used with "
-"structural directives like `*ngIf`, `*ngFor`, and `*ngSwitch`.\n"
-"```"
-msgstr ""
-
-#: src/ng-template/ng-template-with-ngIf.md:7
-msgid ""
-"```html\n"
-"<div *ngIf=\"items else loading\">\n"
-"  ... \n"
-"</div>\n"
-"\n"
-"<ng-template #loading>\n"
-"    <div>Loading...</div>\n"
-"</ng-template>\n"
-"```"
-msgstr ""
+msgstr "The ng-template with ngIf directive"
 
 #: src/ng-template/ng-template-with-ngIf.md:17
 msgid "or "
-msgstr ""
+msgstr "or "
 
-#: src/ng-template/ng-template-with-ngIf.md:19
-msgid ""
-"```html\n"
-"<ng-template [ngIf]=\"items\" [ngIfElse]=\"loading\">\n"
-"   <div class=\"lessons-list\">\n"
-"     ... \n"
-"   </div>\n"
-"</ng-template>\n"
-"\n"
-"<ng-template #loading>\n"
-"    <div>Loading...</div>\n"
-"</ng-template>\n"
-"```"
-msgstr ""
+#: src/ng-template/ng-template-with-ngIf.md:21
+msgid "\"lessons-list\""
+msgstr "\"lessons-list\""
 
-#: src/ng-template/ng-template-outlet.md:3
-#: src/ng-template/ng-template-outlet-with-context.md:3
-msgid ""
-"```admonish note\n"
-"`ngTemplateOutlet` allows you to dynamically render templates in your "
-"Angular components, which can be very useful for creating reusable and "
-"flexible UI components.\n"
-"```"
-msgstr ""
-
-#: src/ng-template/ng-template-outlet.md:7
-msgid ""
-"```html\n"
-"<div>you can see me</div>\n"
-"\n"
-"<ng-template #myTemplate>\n"
-"    <div>you can't see me </div>\n"
-"</ng-template>\n"
-"\n"
-"```"
-msgstr ""
-
-#: src/ng-template/ng-template-outlet.md:17
-msgid ""
-"```html\n"
-"<div>you can see me</div>\n"
-"\n"
-"<ng-template #myTemplate>\n"
-"    <div>you can see me if you used ngTemplateOutlet</div>\n"
-"</ng-template>\n"
-"\n"
-"<ng-container *ngTemplateOutlet=\"myTemplate\">\n"
-"    <p>I won't be displayed</p>\n"
-"</ng-container>\n"
-"\n"
-"or \n"
-"\n"
-"<ng-container [ngTemplateOutlet]=\"myTemplate\">\n"
-"    <p>I won't be displayed</p>\n"
-"</ng-container>\n"
-"```"
-msgstr ""
-
-#: src/ng-template/ng-template-outlet-with-context.md:7
-msgid ""
-"```html\n"
-"<ng-template #myTemplate let-name=\"name\">\n"
-"    <div>hello {{name}}</div>\n"
-"</ng-template>\n"
-"\n"
-"<ng-container *ngTemplateOutlet=\"myTemplate; context: {name: 'Angular "
-"CookBook'}\">\n"
-"</ng-container>\n"
-"\n"
-"or\n"
-"\n"
-"<ng-container "
-"[ngTemplateOutlet]=\"myTemplate\" [ngTemplateOutletContext]=\"{name: "
-"'Angular CookBook'}\">\n"
-"</ng-container>\n"
-"```"
-msgstr ""
+#: src/ng-template/ng-template-outlet-with-context.md:8
+msgid "\"name\""
+msgstr "\"name\""
 
 #: src/ng-template/ng-template-with-viewChild-contentChild.md:1
 msgid ""
 "ng-template with ViewChild/ViewChildren and ContentChild/ContentChildren ?"
 msgstr ""
-
-#: src/ng-template/ng-template-with-viewChild-contentChild.md:2
-msgid ""
-"```admonish note\n"
-"In Angular, ViewChild, ViewChildren, ContentChild, and ContentChildren are "
-"used for component communication. They enable a parent component to access "
-"its child components.\n"
-"```"
-msgstr ""
+"ng-template with ViewChild/ViewChildren and ContentChild/ContentChildren ?"
 
 #: src/ng-template/ng-template-with-viewChild-contentChild.md:7
 msgid "ViewChild and ViewChildren"
-msgstr ""
-
-#: src/ng-template/ng-template-with-viewChild-contentChild.md:9
-msgid ""
-"```admonish note\n"
-"`ViewChild` is used to access a single child component or a DOM element, "
-"while `ViewChildren` is used when there are multiple child components or DOM "
-"elements of the same type. \n"
-"```"
-msgstr ""
-
-#: src/ng-template/ng-template-with-viewChild-contentChild.md:14
-msgid ""
-"```typescript\n"
-"@Component({\n"
-"  selector: 'hello',\n"
-"  template: `<h1>Hello {{name}}!</h1>`, \n"
-"  styles: [`h1 { font-family: Lato; }`],\n"
-"  standalone: true\n"
-"})\n"
-"export class HelloComponent  {\n"
-"  @Input() name: string;\n"
-"}\n"
-"```"
-msgstr ""
+msgstr "ViewChild and ViewChildren"
 
 #: src/ng-template/ng-template-with-viewChild-contentChild.md:26
 msgid "`ViewChild` can be used to access the `HelloComponent` instance:"
-msgstr ""
-
-#: src/ng-template/ng-template-with-viewChild-contentChild.md:28
-msgid ""
-"```typescript\n"
-"import { Component, ViewChild, AfterViewInit } from '@angular/core';\n"
-"\n"
-"@Component({\n"
-"  selector: 'my-app',\n"
-"  templateUrl: './app.component.html',\n"
-"  styleUrls: [ './app.component.css' ], \n"
-"  standalone: true,\n"
-"  imports: [HelloComponent]\n"
-"})\n"
-"export class AppComponent implements AfterViewInit {\n"
-"  name = 'Angular';\n"
-"  @ViewChild(HelloComponent, {static: false}) hello: HelloComponent;\n"
-"  ngAfterViewInit() {\n"
-"    console.log('Hello ', this.hello.name); \n"
-"  }\n"
-"}\n"
-"```"
-msgstr ""
+msgstr "`ViewChild` can be used to access the `HelloComponent` instance:"
 
 #: src/ng-template/ng-template-with-viewChild-contentChild.md:47
 msgid ""
 "In this example, `ViewChild` is used to get a reference to `HelloComponent` "
 "and access its `name` property ."
 msgstr ""
+"In this example, `ViewChild` is used to get a reference to `HelloComponent` "
+"and access its `name` property ."
 
 #: src/ng-template/ng-template-with-viewChild-contentChild.md:50
 msgid "`ViewChildren` can be used in a similar way:"
-msgstr ""
-
-#: src/ng-template/ng-template-with-viewChild-contentChild.md:52
-msgid ""
-"```typescript\n"
-"import { Component, ViewChildren, AfterViewInit, QueryList } from '@angular/"
-"core';\n"
-"import { HelloComponent } from './hello.component';\n"
-"\n"
-"@Component({\n"
-"  selector: 'my-app',\n"
-"  templateUrl: './app.component.html',\n"
-"  styleUrls: [ './app.component.css' ],\n"
-"  standalone: true,\n"
-"  imports: [HelloComponent]\n"
-"})\n"
-"export class AppComponent implements AfterViewInit {\n"
-"  name = 'Angular';\n"
-"  @ViewChildren(HelloComponent) hellos: QueryList<any>;\n"
-"  ngAfterViewInit() {\n"
-"     this.hellos.forEach(hello => console.log(hello));\n"
-"  }\n"
-"}\n"
-"```"
-msgstr ""
+msgstr "`ViewChildren` can be used in a similar way:"
 
 #: src/ng-template/ng-template-with-viewChild-contentChild.md:73
 msgid ""
@@ -553,24 +395,17 @@ msgid ""
 "instances, and in `ngAfterViewInit`, we iterate over this list and log each "
 "instance."
 msgstr ""
+"In this case, `ViewChildren` returns a `QueryList` of `HelloComponent` "
+"instances, and in `ngAfterViewInit`, we iterate over this list and log each "
+"instance."
 
 #: src/ng-template/ng-template-with-viewChild-contentChild.md:78
 msgid "ContentChild and ContentChildren"
-msgstr ""
-
-#: src/ng-template/ng-template-with-viewChild-contentChild.md:80
-msgid ""
-"```admonish note\n"
-"`ContentChild` and `ContentChildren` are similar to `ViewChild` and "
-"`ViewChildren`, but they are used to access projected content (content that "
-"is passed from a parent component to a child component through `ng-"
-"content`).\n"
-"```"
-msgstr ""
+msgstr "ContentChild and ContentChildren"
 
 #: src/ng-template/ng-template-with-viewChild-contentChild.md:83
 msgid "Here's an example of how to use `ContentChild`:"
-msgstr ""
+msgstr "Here's an example of how to use `ContentChild`:"
 
 #: src/ng-template/ng-template-with-viewChild-contentChild.md:85
 msgid ""
@@ -596,39 +431,49 @@ msgid ""
 "}\n"
 "```"
 msgstr ""
+"```typescript\n"
+"import { Component } from '@angular/core';\n"
+"\n"
+"@Component({\n"
+"  selector: 'card',\n"
+"  template: `\n"
+"    <div class=\"card\">\n"
+"      <ng-content select=\"header\"></ng-content>\n"
+"      <ng-content select=\"content\"></ng-content>\n"
+"      <ng-content select=\"footer\"></ng-content>\n"
+"    </div> \n"
+"  `,\n"
+"  styles: [\n"
+"    ` .card { min- width: 280px;  margin: 5px;  float:left  } \n"
+"    `\n"
+"  ]\n"
+"})\n"
+"export class CardComponent {\n"
+"  @ContentChild('header') cardContentHeader: ElementRef;\n"
+"}\n"
+"```"
 
 #: src/ng-template/ng-template-with-viewChild-contentChild.md:106
 msgid ""
 "In this case, `ContentChild` is used to get a reference to the projected "
 "`header` content."
 msgstr ""
+"In this case, `ContentChild` is used to get a reference to the projected "
+"`header` content."
 
 #: src/ng-template/ng-template-with-viewChild-contentChild.md:108
 msgid ""
 "`ContentChildren` can be used to get a list of projected content elements:"
 msgstr ""
-
-#: src/ng-template/ng-template-with-viewChild-contentChild.md:110
-msgid ""
-"```typescript\n"
-"import { Component, ContentChildren, ElementRef, QueryList } from '@angular/"
-"core';\n"
-"\n"
-"@Component({\n"
-"  selector: 'my-component',\n"
-"  template: `...`\n"
-"})\n"
-"export class MyComponent {\n"
-"  @ContentChildren('item') items: QueryList<ElementRef>;\n"
-"}\n"
-"```"
-msgstr ""
+"`ContentChildren` can be used to get a list of projected content elements:"
 
 #: src/ng-template/ng-template-with-viewChild-contentChild.md:121
 msgid ""
 "In this example, `ContentChildren` is used to get a `QueryList` of projected "
 "content elements with the template reference variable 'item'."
 msgstr ""
+"In this example, `ContentChildren` is used to get a `QueryList` of projected "
+"content elements with the template reference variable 'item'."
 
 #: src/ng-template/ng-template-with-viewChild-contentChild.md:123
 msgid ""
@@ -637,11 +482,303 @@ msgid ""
 "contrast, `ContentChild` and `ContentChildren` are used to access projected "
 "content added in the component through `ng-content`."
 msgstr ""
+"In conclusion, `ViewChild` and `ViewChildren` are used to access child "
+"components and DOM elements directly added in the component's template. In "
+"contrast, `ContentChild` and `ContentChildren` are used to access projected "
+"content added in the component through `ng-content`."
+
+#: src/composent-without-selectors/index.md:1
+msgid "Component Without Selectors"
+msgstr "Component Without Selectors"
+
+#: src/composent-without-selectors/index.md:3
+msgid ""
+"Creating components without selectors is an effective method for building "
+"reusable components. Such components can be employed in various scenarios, "
+"including:"
+msgstr ""
+"Creating components without selectors is an effective method for building "
+"reusable components. Such components can be employed in various scenarios, "
+"including:"
+
+#: src/composent-without-selectors/index.md:5
+msgid ""
+"**Route Components:** Navigate between different views in your application."
+msgstr ""
+"**Route Components:** Navigate between different views in your application."
+
+#: src/composent-without-selectors/index.md:6
+msgid ""
+"**Dynamic Components:** Dynamically generate and insert components based on "
+"user actions or application logic."
+msgstr ""
+"**Dynamic Components:** Dynamically generate and insert components based on "
+"user actions or application logic."
+
+#: src/composent-without-selectors/index.md:8
+msgid ""
+"This approach proves advantageous when aiming to minimize the overall build "
+"size of your application. By omitting selectors, you streamline the "
+"components for specific purposes without introducing unnecessary overhead."
+msgstr ""
+"This approach proves advantageous when aiming to minimize the overall build "
+"size of your application. By omitting selectors, you streamline the "
+"components for specific purposes without introducing unnecessary overhead."
+
+#: src/composent-without-selectors/how-to-create-component-without-selectors.md:1
+msgid "Unleashing Angular's Power: Components Without Selectors"
+msgstr "Unleashing Angular's Power: Components Without Selectors"
+
+#: src/composent-without-selectors/how-to-create-component-without-selectors.md:3
+msgid "Dive into Versatility and Efficiency"
+msgstr "Dive into Versatility and Efficiency"
+
+#: src/composent-without-selectors/how-to-create-component-without-selectors.md:6
+msgid ""
+"Embark on a transformative journey in Angular development by embracing the "
+"art of crafting components without selectors. Join us as we explore the "
+"unparalleled versatility of this approach, elevating the way you build "
+"dynamic applications with seamless routes."
+msgstr ""
+"Embark on a transformative journey in Angular development by embracing the "
+"art of crafting components without selectors. Join us as we explore the "
+"unparalleled versatility of this approach, elevating the way you build "
+"dynamic applications with seamless routes."
+
+#: src/composent-without-selectors/how-to-create-component-without-selectors.md:8
+msgid "Project Overview"
+msgstr "Project Overview"
+
+#: src/composent-without-selectors/how-to-create-component-without-selectors.md:10
+msgid ""
+"Before we dive into the technical details, let's take a quick look at the "
+"project structure and its components."
+msgstr ""
+"Before we dive into the technical details, let's take a quick look at the "
+"project structure and its components."
+
+#: src/composent-without-selectors/how-to-create-component-without-selectors.md:12
+msgid "Project Structure"
+msgstr "Project Structure"
+
+#: src/composent-without-selectors/how-to-create-component-without-selectors.md:36
+msgid "Before We Begin"
+msgstr "Before We Begin"
+
+#: src/composent-without-selectors/how-to-create-component-without-selectors.md:37
+msgid ""
+"To follow along, clone the project from [GitHub](https://github.com/"
+"jdansomon/angular-Components-Without-Selectors.git) and set it up "
+"effortlessly. Run `npm install` and switch to the `composent-with-selectors` "
+"branch using `git checkout composent-with-selectors`."
+msgstr ""
+"To follow along, clone the project from [GitHub](https://github.com/"
+"jdansomon/angular-Components-Without-Selectors.git) and set it up "
+"effortlessly. Run `npm install` and switch to the `composent-with-selectors` "
+"branch using `git checkout composent-with-selectors`."
+
+#: src/composent-without-selectors/how-to-create-component-without-selectors.md:39
+msgid "Components with Selectors"
+msgstr "Components with Selectors"
+
+#: src/composent-without-selectors/how-to-create-component-without-selectors.md:40
+msgid ""
+"Now that we're familiar with the project structure, let's explore components "
+"with selectors, dissecting their impact on Webpack build size."
+msgstr ""
+"Now that we're familiar with the project structure, let's explore components "
+"with selectors, dissecting their impact on Webpack build size."
+
+#: src/composent-without-selectors/how-to-create-component-without-selectors.md:42
+msgid ""
+"**Webpack Build Size:** ![Webpack Build Size](./images/composent-with-"
+"selectors.png)"
+msgstr ""
+"**Webpack Build Size:** ![Webpack Build Size](./images/composent-with-"
+"selectors.png)"
+
+#: src/composent-without-selectors/how-to-create-component-without-selectors.md:45
+msgid ""
+"**Results:** ![Webpack Build Size](./images/composent-with-selectors-result."
+"png)"
+msgstr ""
+"**Results:** ![Webpack Build Size](./images/composent-with-selectors-result."
+"png)"
+
+#: src/composent-without-selectors/how-to-create-component-without-selectors.md:48
+msgid "Meet the dynamic duo: `app-root` and `app-home`."
+msgstr "Meet the dynamic duo: `app-root` and `app-home`."
+
+#: src/composent-without-selectors/how-to-create-component-without-selectors.md:49
+msgid "`app-root` takes the lead as the root component."
+msgstr "`app-root` takes the lead as the root component."
+
+#: src/composent-without-selectors/how-to-create-component-without-selectors.md:50
+msgid "Enter the welcoming realm of `app-home`."
+msgstr "Enter the welcoming realm of `app-home`."
+
+#: src/composent-without-selectors/how-to-create-component-without-selectors.md:52
+msgid "Components Without Selectors"
+msgstr "Components Without Selectors"
+
+#: src/composent-without-selectors/how-to-create-component-without-selectors.md:53
+msgid ""
+"Now, with a clear understanding of the project structure, let's delve into "
+"the revolutionary approach of creating components without selectors. Witness "
+"the magic unfold as we explore Webpack build size dynamics."
+msgstr ""
+"Now, with a clear understanding of the project structure, let's delve into "
+"the revolutionary approach of creating components without selectors. Witness "
+"the magic unfold as we explore Webpack build size dynamics."
+
+#: src/composent-without-selectors/how-to-create-component-without-selectors.md:55
+msgid ""
+"**Webpack Build Size:** ![Webpack Build Size](./images/component-without-"
+"selectors.png)"
+msgstr ""
+"**Webpack Build Size:** ![Webpack Build Size](./images/component-without-"
+"selectors.png)"
+
+#: src/composent-without-selectors/how-to-create-component-without-selectors.md:58
+msgid "**Results:** ![Results](./images/component-without-result.png)"
+msgstr "**Results:** ![Results](./images/component-without-result.png)"
+
+#: src/composent-without-selectors/how-to-create-component-without-selectors.md:61
+msgid "The Sweet Spot: Why Components Without Selectors?"
+msgstr "The Sweet Spot: Why Components Without Selectors?"
+
+#: src/composent-without-selectors/how-to-create-component-without-selectors.md:62
+msgid ""
+"**Slimmer Build Size:** Experience a leaner application footprint, optimized "
+"for seamless performance. "
+msgstr ""
+"**Slimmer Build Size:** Experience a leaner application footprint, optimized "
+"for seamless performance. "
+
+#: src/composent-without-selectors/how-to-create-component-without-selectors.md:64
+msgid ""
+"**Flexibility Unleashed:** Dive into the world of route navigation and "
+"dynamic components with a flexible and dynamic architecture."
+msgstr ""
+"**Flexibility Unleashed:** Dive into the world of route navigation and "
+"dynamic components with a flexible and dynamic architecture."
+
+#: src/composent-without-selectors/how-to-create-component-without-selectors.md:66
+msgid "In Conclusion"
+msgstr "In Conclusion"
+
+#: src/composent-without-selectors/how-to-create-component-without-selectors.md:67
+msgid ""
+"This article has demystified the art of creating Angular components without "
+"selectors. From the advantages of reduced build size to the enhanced "
+"adaptability for dynamic components and routes, it's a game-changer in "
+"Angular development. Elevate your projects with efficiency and versatility – "
+"welcome to the era of components without selectors!"
+msgstr ""
+"This article has demystified the art of creating Angular components without "
+"selectors. From the advantages of reduced build size to the enhanced "
+"adaptability for dynamic components and routes, it's a game-changer in "
+"Angular development. Elevate your projects with efficiency and versatility – "
+"welcome to the era of components without selectors!"
+
+#: src/package-manager/index.md:3
+msgid ""
+"The packageManager configuration is often associated with JavaScript or Node."
+"js projects . The most common package managers for JavaScript is npm (Node "
+"Package Manager) ."
+msgstr ""
+"The packageManager configuration is often associated with JavaScript or Node."
+"js projects . The most common package managers for JavaScript is npm (Node "
+"Package Manager) ."
+
+#: src/package-manager/index.md:5
+msgid ""
+"[Yarn](https://yarnpkg.com/en/) and [pnpm](https://pnpm.io/) are "
+"alternatives to npm cli. You can check them out as well."
+msgstr ""
+"[Yarn](https://yarnpkg.com/en/) and [pnpm](https://pnpm.io/) are "
+"alternatives to npm cli. You can check them out as well."
+
+#: src/package-manager/index.md:9
+msgid ""
+"[How to specify packageManager ? (global + local)](./how-to-specify-package-"
+"manager.md)"
+msgstr ""
+"[How to specify packageManager ? (global + local)](./how-to-specify-package-"
+"manager.md)"
+
+#: src/package-manager/index.md:10
+msgid ""
+"[How to force specific usage of packageManager and Node version ( package."
+"json engines ) ?](./how-to-force-specific-usage-of-packageManager-and-node-"
+"version.md)"
+msgstr ""
+"[How to force specific usage of packageManager and Node version ( package."
+"json engines ) ?](./how-to-force-specific-usage-of-packageManager-and-node-"
+"version.md)"
+
+#: src/package-manager/how-to-specify-package-manager.md:1
+msgid "How to specify packageManager ? (global + local)"
+msgstr "How to specify packageManager ? (global + local)"
+
+#: src/package-manager/how-to-specify-package-manager.md:3
+msgid "Global Configuration:"
+msgstr "Global Configuration:"
+
+#: src/package-manager/how-to-specify-package-manager.md:5
+msgid ""
+"Global configuration typically refers to the default package manager that "
+"will be used for all projects unless overridden locally."
+msgstr ""
+"Global configuration typically refers to the default package manager that "
+"will be used for all projects unless overridden locally."
+
+#: src/package-manager/how-to-specify-package-manager.md:8
+msgid ""
+"To set npm|pnpm|yarn as the default package manager globally, you can use "
+"the following command:"
+msgstr ""
+"To set npm|pnpm|yarn as the default package manager globally, you can use "
+"the following command:"
+
+#: src/package-manager/how-to-specify-package-manager.md:15
+msgid "Local Configuration:"
+msgstr "Local Configuration:"
+
+#: src/package-manager/how-to-specify-package-manager.md:17
+msgid ""
+"Local configuration is specific to a particular project and can override the "
+"global configuration."
+msgstr ""
+"Local configuration is specific to a particular project and can override the "
+"global configuration."
+
+#: src/package-manager/how-to-specify-package-manager.md:19
+msgid ""
+"In your project directory, create or edit the `.npmrc`\\| `.pnpmrc` | `."
+"yarnrc` file and add the following line:"
+msgstr ""
+"In your project directory, create or edit the `.npmrc`\\| `.pnpmrc` | `."
+"yarnrc` file and add the following line:"
+
+#: src/package-manager/how-to-specify-package-manager.md:25
+msgid "Or, you can use the following command:"
+msgstr "Or, you can use the following command:"
+
+#: src/package-manager/how-to-specify-package-manager.md:31
+msgid "Checking the Configuration:"
+msgstr "Checking the Configuration:"
+
+#: src/package-manager/how-to-specify-package-manager.md:33
+msgid ""
+"You can check the current configuration by using the following commands:"
+msgstr ""
+"You can check the current configuration by using the following commands:"
 
 #: src/awesome-angular/awesome_angular.md:2
 msgid "![Awesome Angular](./awesome-angular.png)"
-msgstr ""
+msgstr "![Awesome Angular](./awesome-angular.png)"
 
 #: src/contributors.md:3
-msgid "[Pierre Ndlec](https://www.linkedin.com/in/pierrenedelec-angular/) "
-msgstr ""
+msgid "[Pierre Nédélec](https://www.linkedin.com/in/pierrenedelec-angular/) "
+msgstr "[Pierre Nédélec](https://www.linkedin.com/in/pierrenedelec-angular/) "
