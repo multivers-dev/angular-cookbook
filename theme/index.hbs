@@ -189,14 +189,18 @@
                               console.log("href", href)
                               console.log("urlLang", urlLang)
                               console.log("lang.id", lang.id)
+                              console.log("full_path_to_root", full_path_to_root)
+
+                              //get lang from full_path_to_root
+                              console.log("full_path_to_root => ", full_path_to_root)
+                              console.log("full_path_to_root => ", full_path_to_root.split('/'))
+                              //delete the last element
+                              console.log("Delete the old lang ",full_path_to_root.split('/').slice(0, -1).join('/'))
 
                               //remplce urlLang the old land by ""
-                                href = href.replace(langToggle.lang, "")
+                              href = href.replace(langToggle.lang, "")
                               console.log("href test", href)
-
-                            lang.href = `${full_path_to_root}${lang.id}/${path}`;
-
-
+                              lang.href = `${full_path_to_root}${lang.id}/${path}`;
                           }
                         </script>
                         {{#if git_repository_url}}
