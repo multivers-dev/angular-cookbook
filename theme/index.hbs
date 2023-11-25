@@ -203,8 +203,8 @@
                               lang.href = `${full_path_to_root}${lang.id}/${path}`;
                               console.log("lang.href", lang.href)
                               let langToChange = "/" + lang.id
+                              lang.href = lang.href.eplace(langToChange, "")
                               console.log("lang.href.changed", lang.href.replace(langToChange, ""))
-
                           }
                         </script>
                         {{#if git_repository_url}}
