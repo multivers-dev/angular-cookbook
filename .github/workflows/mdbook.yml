@@ -30,7 +30,7 @@ jobs:
       runs-on: ubuntu-latest
       env:
         MDBOOK_VERSION: 0.4.34
-        LANGUAGES: "fr en"  # Add other languages as needed
+        LANGUAGES: "en"  # Add other languages as needed
       steps:
       - name: Check out
         uses: actions/checkout@v3
