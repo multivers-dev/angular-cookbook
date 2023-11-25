@@ -155,56 +155,86 @@
                           </li>
                         </ul>
 
-                        <script>
+<!--                        <script>-->
+<!--                          let langToggle = document.getElementById("language-toggle");-->
+<!--                          let langList = document.getElementById("language-list");-->
+<!--                          langToggle.addEventListener("click", (event) => {-->
+<!--                              langList.style.display = langList.style.display == "block" ? "none" : "block";-->
+<!--                          });-->
+<!--                            // prod https://multivers-dev.github.io/angular-cookbook/fr/-->
+<!--                          let urlLang = window.location.href.split('/')[3]-->
+<!--                          if (urlLang !== 'en' || urlLang !=='fr'){-->
+<!--                            // prod https://multivers-dev.github.io/angular-cookbook/fr/-->
+<!--                            urlLang = window.location.href.split('/')[4]-->
+
+<!--                          }-->
+<!--                          let selectedLang = document.getElementById(urlLang);-->
+
+
+<!--                          selectedLang.parentNode.classList.add("theme-selected");-->
+
+<!--                          // The path to the root, taking the current-->
+
+<!--                          let full_path_to_root = "{{ path_to_root }}";-->
+
+<!--                          // The page path (mdbook only gives us-->
+<!--                          // access to the path to the Markdown file).-->
+<!--                          let path = "{{ path }}".replace(/\.md$/, ".html");-->
+
+
+<!--                          for (let lang of langList.querySelectorAll("a")) {-->
+<!--                              let href = `${full_path_to_root}${lang.id}/${path}`;-->
+<!--                              console.log("langToggle", langToggle)-->
+<!--                              console.log("langToggle", langToggle.lang)-->
+<!--                              console.log("href", href)-->
+<!--                              console.log("urlLang", urlLang)-->
+<!--                              console.log("lang.id", lang.id)-->
+<!--                              console.log("full_path_to_root", full_path_to_root)-->
+
+<!--                              //get lang from full_path_to_root-->
+<!--                              console.log("full_path_to_root => ", full_path_to_root)-->
+<!--                              console.log("full_path_to_root => ", full_path_to_root.split('/'))-->
+<!--                              //delete the last element-->
+<!--                              console.log("Delete the old lang ",full_path_to_root.split('/').slice(0, -1).join('/'))-->
+
+<!--                              //remplce urlLang the old land by ""-->
+<!--                              href = href.replace(langToggle.lang, "")-->
+<!--                              console.log("href test", href)-->
+<!--                              lang.href = `${full_path_to_root}${lang.id}/${path}`;-->
+<!--                              console.log("lang.href", lang.href)-->
+<!--                              let langToChange = "/" + lang.id-->
+<!--                              lang.href = lang.href.eplace(langToChange, "")-->
+<!--                              console.log("lang.href.changed", lang.href.replace(langToChange, ""))-->
+<!--                          }-->
+<!--                        </script>-->
+                                      <script>
                           let langToggle = document.getElementById("language-toggle");
                           let langList = document.getElementById("language-list");
                           langToggle.addEventListener("click", (event) => {
                               langList.style.display = langList.style.display == "block" ? "none" : "block";
                           });
-                            // prod https://multivers-dev.github.io/angular-cookbook/fr/
-                          let urlLang = window.location.href.split('/')[3]
-                          if (urlLang !== 'en' || urlLang !=='fr'){
-                            // prod https://multivers-dev.github.io/angular-cookbook/fr/
-                            urlLang = window.location.href.split('/')[4]
-
+                          let selectedLang = document.getElementById("{{ language }}");
+                          if (selectedLang) {
+                              selectedLang.parentNode.classList.add("theme-selected");
                           }
-                          let selectedLang = document.getElementById(urlLang);
-
-
-                          selectedLang.parentNode.classList.add("theme-selected");
 
                           // The path to the root, taking the current
-
+                          // language into account.
+                          {{#if (eq language "fr")}}
                           let full_path_to_root = "{{ path_to_root }}";
-
+                          {{else}}
+                          let full_path_to_root = "{{ path_to_root }}../";
+                          {{/if}}
+                          console.log("full_path_to_root", full_path_to_root)
                           // The page path (mdbook only gives us
                           // access to the path to the Markdown file).
                           let path = "{{ path }}".replace(/\.md$/, ".html");
-
-
                           for (let lang of langList.querySelectorAll("a")) {
-                              let href = `${full_path_to_root}${lang.id}/${path}`;
-                              console.log("langToggle", langToggle)
-                              console.log("langToggle", langToggle.lang)
-                              console.log("href", href)
-                              console.log("urlLang", urlLang)
-                              console.log("lang.id", lang.id)
-                              console.log("full_path_to_root", full_path_to_root)
-
-                              //get lang from full_path_to_root
-                              console.log("full_path_to_root => ", full_path_to_root)
-                              console.log("full_path_to_root => ", full_path_to_root.split('/'))
-                              //delete the last element
-                              console.log("Delete the old lang ",full_path_to_root.split('/').slice(0, -1).join('/'))
-
-                              //remplce urlLang the old land by ""
-                              href = href.replace(langToggle.lang, "")
-                              console.log("href test", href)
-                              lang.href = `${full_path_to_root}${lang.id}/${path}`;
-                              console.log("lang.href", lang.href)
-                              let langToChange = "/" + lang.id
-                              lang.href = lang.href.eplace(langToChange, "")
-                              console.log("lang.href.changed", lang.href.replace(langToChange, ""))
+                              if (lang.id == "fr") {
+                                  lang.href = `${full_path_to_root}${path}`;
+                              } else {
+                                  lang.href = `${full_path_to_root}${lang.id}/${path}`;
+                              }
                           }
                         </script>
                         {{#if git_repository_url}}
