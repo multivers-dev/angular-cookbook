@@ -7,3 +7,6 @@
 [submodule "examples/viewchildviewchildren-and-contentchildcontentchildren"]
 	path = examples/viewchildviewchildren-and-contentchildcontentchildren
 	url = https://github.com/jdansomon/viewchildviewchildren-and-contentchildcontentchildren.git
+[submodule "examples/angular-Components-Without-Selectors"]
+	path = examples/angular-Components-Without-Selectors
+	url = https://github.com/jdansomon/angular-Components-Without-Selectors.git
