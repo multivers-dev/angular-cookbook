@@ -1,67 +1,138 @@
-# Unleashing Angular's Power: Components Without Selectors
+# Components Without Selectors
 
-## Dive into Versatility and Efficiency
 
-### Introduction
-Embark on a transformative journey in Angular development by embracing the art of crafting components without selectors. Join us as we explore the unparalleled versatility of this approach, elevating the way you build dynamic applications with seamless routes.
-
-### Project Overview
-
-Before we dive into the technical details, let's take a quick look at the project structure and its components.
-
-#### Project Structure
-```plaintext
-/ Components Without Selectors
-|-- src
-|   |-- app
-|       |-- app.component.ts
-|       |-- app.module.ts
-|       |-- app-routing.module.ts
-|       |-- features
-|       |   |-- app-about
-|       |   |   |-- app-about.component.ts
-|       |   |   |-- app-about.component.html
-|       |   |   |-- app-about.component.scss
-|       |   |-- app-home
-|       |   |   |-- app-home.component.ts
-|       |   |   |-- app-home.component.html
-|       |   |   |-- app-home.component.scss
-|       |   |-- app-contacts
-|       |   |   |-- app-contacts.component.ts
-|       |   |   |-- app-contacts.component.html
-|       |   |   |-- app-contacts.component.scss
-|-- ...
+### Project Structure
+```javascript
+const routes: Routes = [
+  {
+    path: '',
+    component : HomeComponent
+  },
+  {
+    path: 'about',
+    component : AboutComponent
+  },
+  {
+    path: 'contacts',
+    component : ContactsComponent
+  },
+  {
+    path: 'join-us',
+    component : JoinUsComponent
+  }
+];
 ```
 
-### Before We Begin
-To follow along, clone the project from [GitHub](https://github.com/jdansomon/angular-Components-Without-Selectors.git) and set it up effortlessly. Run `npm install` and switch to the `composent-with-selectors` branch using `git checkout composent-with-selectors`.
+## Before We Begin
+```admonish note
+To follow along, 
+- Clone the project from [GitHub](https://github.com/jdansomon/angular-Components-Without-Selectors.git) `git clone https://github.com/jdansomon/angular-Components-Without-Selectors.git`
+- Run `npm install` 
+- Switch to the `composent-with-selectors` branch using `git checkout composent-with-selectors`.
+```
 
+## Results
+
+### - Components with Selectors
+```typescript
+@Component({
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.scss']
+})
+
+@Component({
+  selector: 'app-about',
+  templateUrl: './about.component.html',
+  styleUrls: ['./about.component.scss']
+})
+
+@Component({
+  selector: 'app-contacts',
+  templateUrl: './contacts.component.html',
+  styleUrls: ['./contacts.component.scss']
+})
+
+@Component({
+  selector: 'app-join-us',
+  templateUrl: './join-us.component.html',
+  styleUrls: ['./join-us.component.scss']
+})
+```
+**Webpack Build Size:**
+
+![Webpack Build Size](./images/composent-with-selectors.png) ![Webpack Build Size](./images/composent-with-selectors-result.png)
+
+```admonish note
+- The build size is 241.61 KB.
+- when navigate to home page, the home component is loaded with the selector <app-home></app-home> in the DOM.
+```
+
+
+### - Components Without Selectors
+```typescript
+@Component({
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.scss']
+})
+
+@Component({
+  templateUrl: './about.component.html',
+  styleUrls: ['./about.component.scss']
+})
+
+@Component({
+  templateUrl: './contacts.component.html',
+  styleUrls: ['./contacts.component.scss']
+})
+
+@Component({
+  templateUrl: './join-us.component.html',
+  styleUrls: ['./join-us.component.scss']
+})
+```
+![Webpack Build Size](./images/component-without-selectors.png) ![Results](./images/component-without-result.png)
+
+```admonish note
+- The build size is 222.54 KB.
+- when navigate to home page, the home component is loaded without the selector <app-home></app-home> in the DOM but it loaded with `<ng-component></ng-component>`.
+```
+
+
+## Angular 17 Ivy
+
+
+```admonish note
+- Angular 17 Ivy is the next generation compilation and rendering pipeline.
+```
 ### Components with Selectors
-Now that we're familiar with the project structure, let's explore components with selectors, dissecting their impact on Webpack build size.
 
-**Webpack Build Size:**
-![Webpack Build Size](./images/composent-with-selectors.png)
+![Esbuild Size](./images/angular-17/with-selectors.png) 
+![Src Size](./images/angular-17/with-selectors/1.png)
+![Features Size](./images/angular-17/with-selectors/img.png)
 
-**Results:**
-![Webpack Build Size](./images/composent-with-selectors-result.png)
+### Components without Selectors
+![Esbuild Size](./images/angular-17/with-selectors.png) 
+![Src Size](./images/angular-17/without-selectors/1.png)
+![Features Size](./images/angular-17/without-selectors/img_1.png)
 
-- Meet the dynamic duo: `app-root` and `app-home`.
-- `app-root` takes the lead as the root component.
-- Enter the welcoming realm of `app-home`.
+### Summary
+_**Angular 16**_
+```admonish note 
+1. [ ] The build size is 241.61 KB with selectors and 222.54 KB without selectors 
+1. [ ] The build size is 19.07 KB less without selectors.
+1. [ ] The build size is 7.9% less without selectors.
+```
 
-### Components Without Selectors
-Now, with a clear understanding of the project structure, let's delve into the revolutionary approach of creating components without selectors. Witness the magic unfold as we explore Webpack build size dynamics.
+_**Angular 17 Ivy**_
+```admonish note 
+1. [ ] The build size is 524 bytes with selectors and 436 bytes without selectors
+1. [ ] The build size is 88 bytes less without selectors.
+1. [ ] The build size is 16.79% less without selectors.
+```
 
-**Webpack Build Size:**
-![Webpack Build Size](./images/component-without-selectors.png)
-
-**Results:**
-![Results](./images/component-without-result.png)
-
-### The Sweet Spot: Why Components Without Selectors?
-1. **Slimmer Build Size:** Experience a leaner application footprint, optimized for seamless performance. 
-
-2. **Flexibility Unleashed:** Dive into the world of route navigation and dynamic components with a flexible and dynamic architecture.
-
-### In Conclusion
-This article has demystified the art of creating Angular components without selectors. From the advantages of reduced build size to the enhanced adaptability for dynamic components and routes, it's a game-changer in Angular development. Elevate your projects with efficiency and versatility – welcome to the era of components without selectors!
+## Conclusion
+```admonish note
+1. [ ] Components without selectors are faster than components with selectors.
+1. [ ] Components without selectors are smaller than components with selectors.
+```
