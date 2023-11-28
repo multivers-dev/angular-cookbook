@@ -4,92 +4,91 @@
 
 # User Guide
 - [Installation](guide/installation.md)
-- [How to contribute ?](guide/how-to-contribute.md)
+- [How to contribute?](guide/how-to-contribute.md)
 
-# Articles
-- [Lazy Loading](./lazy-loading/lazy_loading.md)
-    - [How to Lazy load Module ?](./lazy-loading/lazy_loading_module.md)
-    - [How to Lazy load Standalone Components](./lazy-loading/lazy_loading_standalone_component.md)
-    - [How to Lazy load Service](./lazy-loading/lazy_loading_service.md)
-    - [Preloading Strategy ](./lazy-loading/preloading_strategy.md)
-- [Interpolation](./interpolation/index.md)
-    - [How to bind  ?](./interpolation/how-to-bind.md)
-    - [How to customize Component Interpolation](./interpolation/how-to-customize-interpolation.md)
-- [Renderer](./renderer/index.md)
-    - [How to create comment ?](./renderer/how-to-create_comment.md)
-- [How to use ng-template ?](ng-template/index.md)
-    - [How to use ng-template with-ngIf ?](ng-template/ng-template-with-ngIf.md)
-    - [How to use ngTemplateOutlet ?](ng-template/ng-template-outlet.md)
-    - [How to use ngTemplateOutlet with context ?](ng-template/ng-template-outlet-with-context.md)
-    - [How to use ng-template with ViewChild/ViewChildren and ContentChild/ContentChildren ?](ng-template/ng-template-with-viewChild-contentChild.md)
-- [Component without selectors](composent-without-selectors/README.md)
-    - [components without selectors ?](composent-without-selectors/how-to-create-component-without-selectors.md)
-- [Package manager](./package-manager/index.md)
-    - [How to specify packageManager ?( global + local )](./package-manager/how-to-specify-package-manager.md)
-    - [How to force specific usage of packageManager and Node version ?](./package-manager/how-to-force-specific-usage-of-packageManager-and-node-version.md)
-- [State Management](./state-management/README.md)
-- [Test unitaires](./test-unitaires/README.md)
-- [Test end to end](./test-end-to-end/README.md)
-- [Forms](./forms/README.md)
-- [Library](./library/README.md)
-- [Third party library](./third-party-library/README.md)
-- [styles](./styles/README.md)
-- [Configuration](./configuration/README.md)
-- [SSR](./ssr/README.md)
-- [Signals](./signals/README.md)
-- [RxJS](./rxjs/README.md)
-- [PWA](./pwa/README.md)
-- [Web Worker](./web-worker/README.md)
-- [i18N](./i18n/README.md)
-- [TypeScript](./typescript/README.md)
-- [ES2015+](./es2015+/README.md)
-- [Standalone Component](./standalone-component/README.md)
-- [Pipe](./pipe/README.md)
-- [Directive](./directive/README.md)
+# Core Concepts
+- [Components](./standalone-component/README.md)
+  - [Creating Components without Selectors](composent-without-selectors/how-to-create-component-without-selectors.md)
+- [Directives](./directive/README.md)
 - [Dependency Injection](./dependency-injection/README.md)
-- [HttpClient](./http-client/README.md)
-- [Router and Navigation](./router-and-navigation/README.md)
-- [Zone Js](./zone-js/README.md)
-- [Performances](./performances/README.md)
-- [Eslint](./eslint/README.md)
-- [Prerendering and Scully](./prerendering-and-scully/README.md)
-- [Angular Platform Terminal](./angular-platform-terminal/README.md)
-- [Bazel](./bazel/README.md)
-- [Resources](./resources/README.md)
-- [Animations](./animations/README.md)
-- [Accessibility](./accessibility/README.md)
-- [Update Angular](./update-angular/README.md)
-- [Schematics](./schematics/README.md)
-- [DevTools](./devtools/README.md)
-- [Extension VSCode](./extension-vscode/README.md)
-- [CLI Builders](./cli-builders/README.md)
-- [Micro Frontrnd/Module Federation](./micro-frontends/README.md)
-- [Angular JS migration](./angular-js-migration/README.md)
-- [Version Compatibility](./version-compatibility/README.md)
-- [Release pratices](./release-pratices/README.md)
-- [Coding Style](./coding-style/README.md)
 - [NgModules](./ngmodules/README.md)
-- [Workspaces](./workspaces/README.md)
-- [Template Variable](./template-variable/README.md)
-- [Cli Commands](./cli-commands/README.md)
-- [Nx Workspace](./nx-workspace/README.md)
-- [Lifecycle Hooks](./lifecycle-hooks/README.md)
+- [Pipes](./pipe/README.md)
+- [Services and HttpClient](./http-client/README.md)
+
+# Templates and Data Binding
+- [Interpolation](./interpolation/index.md)
+  - [Binding Techniques](./interpolation/how-to-bind.md)
+  - [Customizing Component Interpolation](./interpolation/how-to-customize-interpolation.md)
+- [Ng-template](ng-template/index.md)
+  - [Using ng-template with *ngIf](ng-template/ng-template-with-ngIf.md)
+  - [Using ngTemplateOutlet](ng-template/ng-template-outlet.md)
+  - [ngTemplateOutlet with Context](ng-template/ng-template-outlet-with-context.md)
+  - [ViewChild/ViewChildren & ContentChild/ContentChildren](ng-template/ng-template-with-viewChild-contentChild.md)
+
+# Lazy Loading
+- [Lazy Loading Overview](./lazy-loading/lazy_loading.md)
+  - [Lazy Loading Modules](./lazy-loading/lazy_loading_module.md)
+  - [Lazy Loading Standalone Components](./lazy-loading/lazy_loading_standalone_component.md)
+  - [Lazy Loading Services](./lazy-loading/lazy_loading_service.md)
+  - [Preloading Strategy](./lazy-loading/preloading_strategy.md)
+
+# Forms
+- [Forms](./forms/README.md)
+
+# Testing
+- [Unit Testing](./test-unitaires/README.md)
+- [End-to-End Testing](./test-end-to-end/README.md)
+
+# Styling and Theming
+- [Styles](./styles/README.md)
+
+# State Management
+- [State Management Overview](./state-management/README.md)
+
+# RxJS
+- [RxJS](./rxjs/README.md)
+
+# Internationalization
+- [i18N](./i18n/README.md)
+
+# Security
+- [Security Best Practices](./security/README.md)
+
+# Performance Optimization
+- [Performance Optimization](./performances/README.md)
+
+# Angular CLI and Tooling
+- [Package Manager](./package-manager/index.md)
+  - [Specifying PackageManager (Global + Local)](./package-manager/how-to-specify-package-manager.md)
+  - [Forcing PackageManager and Node Version](./package-manager/how-to-force-specific-usage-of-packageManager-and-node-version.md)
+- [Configuration](./configuration/README.md)
+- [Schematics](./schematics/README.md)
+- [Angular CLI Commands](./cli-commands/README.md)
+- [DevTools](./devtools/README.md)
+- [Extension for VSCode](./extension-vscode/README.md)
+
+# Advanced Topics
+- [Server-Side Rendering (SSR)](./ssr/README.md)
+- [Web Workers](./web-worker/README.md)
+- [Animations](./animations/README.md)
 - [Angular Elements](./angular-elements/README.md)
-- [Security](./security/README.md)
 - [Renderer2](./renderer2/README.md)
-- [Base Href](./base-href/README.md)
-- [NgCompenent Outlet](./ngcomponent-outlet/README.md)
-- [Ng Content](./ng-content/README.md)
-- [Bootstrap app/component](./bootstrap-app-component/README.md)
-- [Environment](./environment/README.md)
-- [Browserlist](./browserlist/README.md)
-- [Guards](./guards/README.md)
-- [Resolvers](./resolvers/README.md)
-- [PreLoad Strategy](./preload-strategy/README.md)
-- [Architecture](./architecture/README.md)
-- [Best Reddit Automate articles](./best-reddit-automate-articles/README.md)
+- [Micro Frontends/Module Federation](./micro-frontends/README.md)
+
+# Best Practices and Guidelines
+- [Coding Style](./coding-style/README.md)
+- [Architecture Best Practices](./architecture/README.md)
+
+# Updates and Maintenance
+- [Updating Angular](./update-angular/README.md)
+- [Release Practices](./release-practices/README.md)
+- [Version Compatibility](./version-compatibility/README.md)
+
+# Community and Resources
 - [Awesome Angular](./awesome-angular/awesome_angular.md)
+- [Best Reddit Automation Articles](./best-reddit-automate-articles/README.md)
 
------------
+# Additional Resources
+- [Contributors](./contributors.md)
+- [Resources](./resources/README.md)
 
-[Contributors](./contributors.md)
