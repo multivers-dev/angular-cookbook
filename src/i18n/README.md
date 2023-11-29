@@ -2,6 +2,11 @@
 
 Internationalization is the process of designing and preparing your app to be usable in different languages. Localization is the process of translating your internationalized app into specific languages for particular locales.
 
+```admonish note
+You can find the hold project in the our [Github](https://github.com/jdansomon/angular-i18n.git) folder.
+
+```
+
 ## Table of Contents
 
 - [Installing of angular localize](#installing-of-angular-localize)
@@ -14,17 +19,20 @@ Internationalization is the process of designing and preparing your app to be us
 
 We’ll require the Angular CLI, so be sure to install it by running:
 
+
+
 ### Prerequisites
 
 ```bash
 npm install -g @angular/cli
 ```
 
-Create a new Angular 17 app with the CLI:
+Create a new Angular app with the CLI:
 
 ```bash
 ng new angular-i18n --routing --style=scss --strict
 ```
+
 
 Install the `@angular/localize` package:
 

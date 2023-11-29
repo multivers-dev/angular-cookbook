@@ -10,3 +10,6 @@
 [submodule "examples/angular-Components-Without-Selectors"]
 	path = examples/angular-Components-Without-Selectors
 	url = https://github.com/jdansomon/angular-Components-Without-Selectors.git
+[submodule "examples/angular-i18n"]
+	path = examples/angular-i18n
+	url = https://github.com/jdansomon/angular-i18n.git
