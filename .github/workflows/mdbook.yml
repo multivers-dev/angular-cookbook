@@ -49,7 +49,11 @@ jobs:
             target/
           key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
           restore-keys: ${{ runner.os }}-cargo-
-      - name: Install mdbook
+      - name: Install dependencies
+        run: |
+          cargo install --force --version ${MDBOOK_VERSION} mdbook
+
+      - name: Install dependencies for mdbook
         uses: ./.github/workflows/install-mdbook
       - name: Setup Pages
         id: pages
