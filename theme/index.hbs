@@ -53,7 +53,7 @@
         <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
         {{/if}}
     </head>
-    <body class="sidebar-visible no-js">
+    <body class="no-js">
     <div id="body-container">
         <!-- Provide site root to javascript -->
         <script>
@@ -213,11 +213,11 @@
                               }
                           }
                         </script>
-                        {{#if print_enable}}
-                        <a href="{{ path_to_root }}print.html" title="Print this book" aria-label="Print this book">
-                            <i id="print-button" class="fa fa-print"></i>
-                        </a>
-                        {{/if}}
+<!--                        {{#if print_enable}}-->
+<!--                        <a href="{{ path_to_root }}print.html" title="Print this book" aria-label="Print this book">-->
+<!--                            <i id="print-button" class="fa fa-print"></i>-->
+<!--                        </a>-->
+<!--                        {{/if}}-->
                         {{#if git_repository_url}}
                         <a href="{{git_repository_url}}" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa {{git_repository_icon}}"></i>
