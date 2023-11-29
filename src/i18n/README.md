@@ -313,6 +313,7 @@ npm install --save-dev xliffmerge
 
 * update `package.json` file 
 
+
 ```json
 {
   name: "angular-i18n",
