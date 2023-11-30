@@ -169,7 +169,7 @@ msgstr ""
 #: src/SUMMARY.md:51
 #, fuzzy
 msgid "Internationalization"
-msgstr "Interpolation"
+msgstr "Internationalisation"
 
 #: src/SUMMARY.md:52 src/i18n/index.md:1
 msgid "i18N"
