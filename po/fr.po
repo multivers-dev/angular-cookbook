@@ -27,7 +27,7 @@ msgstr "Guide utilisateur"
 #: src/SUMMARY.md:6 src/guide/installation.md:1
 #, fuzzy
 msgid "Installation"
-msgstr "Interpolation"
+msgstr "Installation"
 
 #: src/SUMMARY.md:7
 msgid "How to contribute?"
