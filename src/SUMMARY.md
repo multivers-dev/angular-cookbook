@@ -49,7 +49,11 @@
 - [RxJS](./rxjs/README.md)
 
 # Internationalization
-- [i18N](./i18n/README.md)
+- [Internationalization](./internationalization/README.md)
+  - [i18N](./internationalization/i18n.md)
+  - [ngx-translate](./internationalization/ngx-translate.md)
+  - [Transloco](./internationalization/transloco.md)
+  - [angular-i18next (i18next)](./internationalization/i18next.md)
 
 # Security
 - [Security Best Practices](./security/README.md)
