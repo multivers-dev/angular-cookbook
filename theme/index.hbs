@@ -90,37 +90,23 @@
             body.classList.add('js');
         </script>
 
-        <!-- Hide / unhide sidebar before it is displayed -->
+
+
+                <!-- Hide / unhide sidebar before it is displayed -->
         <script>
-            var html = document.querySelector('body');
+            var body = document.querySelector('body');
             var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
-            }else{
+            } else {
                 sidebar = 'hidden';
             }
-            html.classList.remove('sidebar-visible');
-            let ck = "sidebar-" + sidebar;
-            html.classList.add(ck);
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+
         </script>
-
-                <!-- Hide / unhide sidebar before it is displayed -->
-<!--        <script>-->
-<!--            var body = document.querySelector('body');-->
-<!--            var sidebar = null;-->
-<!--            var sidebar_toggle = document.getElementById("sidebar-toggle");-->
-<!--            if (document.body.clientWidth >= 1080) {-->
-<!--                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }-->
-<!--                sidebar = sidebar || 'visible';-->
-<!--            } else {-->
-<!--                sidebar = 'hidden';-->
-<!--            }-->
-<!--            body.classList.remove('sidebar-visible');-->
-<!--            body.classList.add("sidebar-" + sidebar);-->
-<!--                        // sidebar_toggle.checked = sidebar === 'visible';-->
-
-<!--        </script>-->
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
