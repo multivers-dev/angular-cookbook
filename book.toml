@@ -28,3 +28,6 @@ assets_version = "3.0.1" # do not edit: managed by `mdbook-admonish install`
 command = "mdbook-gettext"
 after = ["links"]
 
+[output.html.fold]
+enable = true
+
