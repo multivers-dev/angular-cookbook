@@ -31,3 +31,7 @@ after = ["links"]
 [output.html.fold]
 enable = true
 
+[output.html.print]
+enable = false    # include support for printable output
+page-break = true # insert page breaks before each chapter
+
