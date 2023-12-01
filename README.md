@@ -11,8 +11,7 @@
     - [dependencies](#dependencies)
 - [Builds](#builds)
 - [Serve](#serve)
-- [How to Contribute ?](#how-to-contribute-)
-
+- [How to Contribute ?](#how-to-contribute)
 
 # How to Install ?
 
@@ -38,8 +37,6 @@
 > For more information about installation of rustup, see the [rustup documentation](https://forge.rust-lang.org/infra/other-installation-methods.html).
 >
 
-<br>
-<br>
 
 
 # Dependencies
@@ -129,4 +126,4 @@ cargo install mdbook-i18n-helpers
 >MDBOOK_BOOK__LANGUAGE=en mdbook serve -d book/en -p 3001
 >```
 
-# [How to Contribute ?](./CONTRIBUTING.md)
+## [How to Contribute?](./CONTRIBUTING.md)
