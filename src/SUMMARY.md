@@ -35,6 +35,12 @@
 # Forms
 - [Forms](./forms/README.md)
   - [Validation](./forms/validation.md)
+  - [Create a custom validator](./forms/how-to-create-a-custom-validator.md)
+  - [Create asynchronous validators](./forms/how-to-create-asynchronous-validators.md)
+  - [Create a group validators](./forms/how-to-create-a-group-validators.md)
+  - [Create a custom validator directive](./forms/how-to-create-a-custom-validator-directive.md)
+  - [Best Validators Libraries](./forms/best-libraries-for-angular-forms.md)
+  
 
 # Testing
 - [Unit Testing](./test-unitaires/README.md)

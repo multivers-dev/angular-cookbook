@@ -13,7 +13,7 @@
    - 2.5 [Custom Validators](#25-custom-validators)
 3. [Asynchronous Validators](#3-asynchronous-validators)
 4. [Combining Validators](#4-combining-validators)
-5. [Cross-Field Validation](#5-cross-field-validation)
+5. [Group Validation](#5-group-validation)
 6. [Summary](#6-summary)
 
 
@@ -146,18 +146,35 @@ this.myForm = this.fb.group({
 ### 2.5 Custom Validators
 
 ```typescript
-// Example: Creating a custom validator function
-function customValidator(control: AbstractControl): ValidationErrors | null {
-    const value = control.value;
-    if (!value) {
-        return null;
-    }
-  // Your validation logic here
-}
+import { AbstractControl, ValidationErrors } from "@angular/forms";
+
+/**
+ * lowerCaseValidator
+ * Validates that the value has at least one lower case character.
+ *
+ * @param control - The AbstractControl to validate.
+ * @returns ValidationErrors or null if the validation passes.
+ */
+export const lowerCaseValidator = (control: AbstractControl): ValidationErrors | null => {
+   const value = control.value ;
+   if (!value) {
+      return null;
+   }
+   const hasLowerCase = /[a-z]+/.test(value);
+   if (hasLowerCase){
+      return null
+   }
+   return { hasLowerCase: true }
+};
+
 
 this.myForm = this.fb.group({
-  customField: ['', customValidator],
+  customField: ['', lowerCaseValidator],
 });
+```
+
+```admonish note title="Summary:"
+Read more about custom validators in the [Custom Validators](how-to-create-a-custom-validator.md) section.
 ```
 
 ## 3. Asynchronous Validators
@@ -166,6 +183,8 @@ Asynchronous validators are useful when validation involves asynchronous operati
 ```
 
 ```typescript
+import { AbstractControl, ValidationErrors } from "@angular/forms";
+
 // Example: Asynchronous validation using a service
 function asyncValidator(service: MyService) {
   return (control: AbstractControl): Observable<ValidationErrors | null> => {
@@ -199,9 +218,9 @@ this.myForm = this.fb.group({
 });
 ```
 
-## 5. Cross-Field Validation
+## 5. Group Validation
 ```admonish note title="Cross-Field Validation"
-Cross-field validation involves validating the relationship between multiple fields. For example, a password and confirm password field.
+Group validation involves validating the relationship between multiple fields. For example, a password and confirm password field.
 ```
 
 ```typescript
