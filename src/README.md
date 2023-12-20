@@ -1,4 +1,3 @@
-# Angular CookBook 
 ![Angular CookBook ](./introduction/book-cover.jpeg)
 
 ## Angular Cookbook - How to do things with Angular 

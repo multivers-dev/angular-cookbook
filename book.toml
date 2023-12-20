@@ -14,7 +14,7 @@ extra-watch-dirs = ["po"]
 
 [output.html]
 default-theme = "light"
-preferred-dark-theme = "navy"
+preferred-dark-theme = "ang"
 additional-css = ['theme/mdbook-admonish.css']
 git-repository-url = "https://github.com/multivers-dev/angular-cookbook"
 git-repository-icon = "fa-github"
