@@ -2,10 +2,6 @@
 
 [Introduction](README.md)
 
-# User Guide
-- [Installation](guide/installation.md)
-- [How to contribute?](guide/how-to-contribute.md)
-
 # Core Concepts
 - [Components](./standalone-component/README.md)
   - [Creating Components without Selectors](composent-without-selectors/how-to-create-component-without-selectors.md)
@@ -102,4 +98,5 @@
 # Additional Resources
 - [Contributors](./contributors.md)
 - [Resources](./resources/README.md)
+- [How to contribute?](guide/how-to-contribute.md)
 
