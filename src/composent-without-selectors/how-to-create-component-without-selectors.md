@@ -1,5 +1,15 @@
 # Components Without Selectors
 
+## TL;DR
+
+
+```admonish note
+Removing selector on component which are directly used by angular router
+Angular will render a component without selector like this
+<router-outlet><ng-component>....</ng-component></router-outlet> 
+```
+
+
 
 ### Project Structure
 ```javascript
@@ -99,11 +109,11 @@ To follow along,
 ```
 
 
-## Angular 17 Ivy
+## Angular 17+ ( esbuild ) 
 
 
 ```admonish note
-- Angular 17 Ivy is the next generation compilation and rendering pipeline.
+- Esbuild is the next generation compilation and rendering pipeline.
 ```
 ### Components with Selectors
 
@@ -117,22 +127,23 @@ To follow along,
 ![Features Size](./images/angular-17/without-selectors/img_1.png)
 
 ### Summary
+
 _**Angular 16**_
 ```admonish note 
 1. [ ] The build size is 241.61 KB with selectors and 222.54 KB without selectors 
 1. [ ] The build size is 19.07 KB less without selectors.
-1. [ ] The build size is 7.9% less without selectors.
 ```
 
-_**Angular 17 Ivy**_
+_**Angular 17 Esbuild**_
 ```admonish note 
-1. [ ] The build size is 524 bytes with selectors and 436 bytes without selectors
-1. [ ] The build size is 88 bytes less without selectors.
-1. [ ] The build size is 16.79% less without selectors.
+1. The build size is 524 bytes with selectors and 436 bytes without selectors
+1. The build size is 88 bytes less without selectors.
 ```
 
-## Conclusion
-```admonish note
-1. [ ] Components without selectors are faster than components with selectors.
-1. [ ] Components without selectors are smaller than components with selectors.
+_**Angular 18 Esbuild**_
+```admonish note 
+1. The build size is XXX bytes with selectors and 436 bytes without selectors
+1. The build size is XX bytes less without selectors.
+1. The build size is XX.XX% less without selectors.
 ```
+
