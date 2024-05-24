@@ -1,7 +1,11 @@
 ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) CookBook
 =============
 
-[_Angular CookBook_]() is an Open Source Participative Angular Knowledge built for the community.
+[_Angular CookBook_](https://multivers-dev.github.io/angular-cookbook/en) is an Open Source Angular Knowledge Project built for and by the community.
+
+You can edit existing pages via top right pen icon button  and propose Pull Request without having to open vscode.
+For new article, just create a folder and a markdown file you can also follow instructions below to project locally 
+
 
 
 # Table of Contents
