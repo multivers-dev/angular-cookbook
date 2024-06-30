@@ -35,3 +35,6 @@ enable = true
 enable = false    # include support for printable output
 page-break = true # insert page breaks before each chapter
 
+[output.angular]
+command = "./target/debug/mdbook-angular"
+builder = "background"

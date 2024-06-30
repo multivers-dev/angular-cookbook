@@ -18,3 +18,5 @@ po/*.po~
 
 # Node
 node_modules
+.angular
+mdbook_angular

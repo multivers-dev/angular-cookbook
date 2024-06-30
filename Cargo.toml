@@ -8,5 +8,6 @@ edition = "2021"
 [dependencies]
 mdbook = "^0.4.35"
 mdbook-admonish = "^1.13.1"
+mdbook-angular = "0.3.2"
 mdbook-i18n-helpers = "^0.2.4"
 mdbook-svgbob= "^0.2.1"
