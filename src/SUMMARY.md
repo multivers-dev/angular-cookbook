@@ -8,7 +8,11 @@
 - [Directives](./directive/README.md)
 - [Dependency Injection](./dependency-injection/README.md)
 - [NgModules](./ngmodules/README.md)
-- [Pipes](./pipe/README.md)
+- [Pipes](./pipes/README.md)
+  - [Angular Built-in Pipes](./pipes/angular-built-in-pipes/angular-built-in-pipes.md)
+    - [Percent Pipe](./pipes/angular-built-in-pipes/percent-pipe.md)
+  - [Custom Pipe](./pipes/custom-pipe.md)
+  - [Testing Pipe](./pipes/testing-pipe.md)
 - [Services and HttpClient](./http-client/README.md)
 
 # Templates and Data Binding
