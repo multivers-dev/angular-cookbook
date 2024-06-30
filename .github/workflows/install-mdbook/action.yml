@@ -9,13 +9,13 @@ runs:
     # avoids breakage due to skews between mdbook and mdbook-svgbob.
 
     - name: Install mdbook-svgbob
-      run: cargo install mdbook-svgbob --locked --version 0.2.1
+      run: cargo install mdbook-svgbob --locked --version 0.2.1 --force
       shell: bash
 
     - name: Install mdbook-i18n-helpers
-      run: cargo install mdbook-i18n-helpers --locked --version 0.3.0
+      run: cargo install mdbook-i18n-helpers --locked --version 0.3.0 --force
       shell: bash
 
     - name: Install mdbook-admonish
-      run: cargo install mdbook-admonish --locked --version 1.13.1
+      run: cargo install mdbook-admonish --locked --version 1.13.1 --force
       shell: bash
